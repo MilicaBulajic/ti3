@@ -1,6 +1,6 @@
 ---
 id: '01'
-title: "English home page"
+title: "Feng Shui & Modern design"
 description: "some content"
 templateKey: home
 tags:
@@ -41,7 +41,7 @@ path: /en/
 slug: /en/
 ---
 
-# Kaki home page
+# Feng Shui & Modern design
 <br>
 
 Iis iis domesticarum. Legam aliquip cernantur, ea et nisi aute export. Id illum
