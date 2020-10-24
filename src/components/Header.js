@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logo from '../img/logo.svg'
+import logo from '../img/logo.png'
 import { FaHome, FaQuestion, FaImage, FaPenAlt, FaAmericanSignLanguageInterpreting } from 'react-icons/fa';
 import SelectLanguage from './SelectLanguage';
 import { FormattedMessage } from 'react-intl';
@@ -69,7 +69,7 @@ const Header = class extends React.Component {
       <div className="container">
         <div className="navbar-brand">
           <Link to="/" className="navbar-item" title="Logo">
-            <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+            <img src={logo} alt="fengshui" />
           </Link>
           {/* Hamburger menu */}
           <div className="navbar-burger burger" data-target="navMenu">
@@ -81,7 +81,7 @@ const Header = class extends React.Component {
         <div id="navMenu" className="navbar-menu">
         <div className="navbar-start has-text-centered">
           <Link className="navbar-item" to={"/" + props.langKey}>
-            <FaHome className="menu-names" /> <FormattedMessage id="home" />
+            <FormattedMessage id="home" />
           </Link>
           <BrowserView viewClassName='navbar-item has-dropdown is-hoverable'>
 
@@ -93,13 +93,13 @@ const Header = class extends React.Component {
               />
           </MobileView>
           <Link className="navbar-item" to={"/" + props.langKey + "/" + menuTree.about[sel] +"/"}>
-            <FaQuestion className="menu-names" /> <FormattedMessage id="about" />
+            <FormattedMessage id="about" />
           </Link>
           <Link className="navbar-item" to={"/" + props.langKey + "/" + menuTree.blog[sel] +"/"}>
-            <FaPenAlt className="menu-names" /> <FormattedMessage id="blog" />
+            <FormattedMessage id="blog" />
           </Link>
           <Link className="navbar-item" to={"/" + props.langKey + "/" + menuTree.contact[sel] +"/"}>
-            <FaAmericanSignLanguageInterpreting className="menu-names" /> <FormattedMessage id="contact" />
+            <FormattedMessage id="contact" />
           </Link>
         </div>
         <div className="navbar-end">
