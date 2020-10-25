@@ -1,5 +1,5 @@
 module.exports = {
-  'selectLanguage': 'Select your language',
+  'selectLanguage': ' ',
   'tags': 'Tags',
   'tags.allTagsLink': 'Browse all tags',
   'tags.intro': 'Here you can find all the tags',
@@ -50,10 +50,6 @@ module.exports = {
   'contact.subject': 'Subject',
   'contact.gender.male': 'Male',
   'contact.gender.female': 'Female',
-  'contact.enquiry': 'Type of Enquiry',
-  'contact.enquiry.a': 'Need to know more',
-  'contact.enquiry.b': 'About art',
-  'contact.enquiry.c': 'Want to say hello',
   'contact.message': 'Message',
   'contact.send': 'Send',
   'not_found': "404 - Page Not Found",

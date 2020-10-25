@@ -19,7 +19,7 @@ intro:
       heading: Painting
       link: /en/artworks/painting/
       text: >
-        In these pages you can find some interesting reflections on the persimmon.
+        In these pages you can find some interesting reflections on the persimmon.In these pages you can find some interesting reflections on the persimmon.In these pages you can find some interesting reflections on the persimmon.In these pages you can find some interesting reflections on the persimmon.In these pages you can find some interesting reflections on the persimmon.In these pages you can find some interesting reflections on the persimmon.v
     - image: /img/Kaki.jpg
       heading: Sculpture
       link: /en/artworks/sculpture/

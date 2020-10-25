@@ -40,6 +40,7 @@ const HomePageTemplate = ({
       })`,
       backgroundPosition: `top left`,
       backgroundAttachment: `fixed`,
+      height: `550px`,
     }}
   >
     <div
@@ -50,41 +51,38 @@ const HomePageTemplate = ({
         justifyContent: 'space-around',
         alignItems: 'left',
         flexDirection: 'column',
+        paddingTop: '16rem',
+  
       }}
     >
-      <h1
-        className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen is-centered animated bounceInLeft"
-        style={{
-          boxShadow:
-            'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-          backgroundColor: 'rgb(255, 68, 0)',
-          color: 'white',
-          lineHeight: '1',
-          padding: '0.25em',
-        }}
-      >
-        {title}
-      </h1>
         <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen animated bounceInRight"
           style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
+            backgroundColor: 'rgba(255,255,255,0.45)',
+            color: '#4a4a4a',
             lineHeight: '1',
-            padding: '0.25em',
+            padding: '0.15em',
+            textAlign: 'right',
           }}
         >
           {heading}
         </h3>
+
+        <h1
+        className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen is-centered animated bounceInLeft"
+        style={{
+          backgroundColor: 'rgba(255,255,255,0.45)',
+          color: '#4a4a4a',
+          lineHeight: '1',
+          padding: '0.15em',
+          paddingLeft: '0'
+        }}
+      >
+        {title}
+      </h1>
        </div>
        </div>
        
-  
-       <div className="container section">
-
-       </div>
 
         <section className="section">
           <PageContent className="container content" content={content} />

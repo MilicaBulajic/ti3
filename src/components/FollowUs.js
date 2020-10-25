@@ -9,7 +9,7 @@ const FollowUs = ({link, instagram}) => {
         <div className="level-item">
           <p className="title has-text-centered">
             <FormattedMessage id="followus"/>
-            <a className="link is-info" href={"https://www.instagram.com/" + link + "/"} target="_blank" rel="noopener noreferrer">
+            <a className="link is-info" href={"https://www.instagram.com/" + link + "fengshui.home"} target="_blank" rel="noopener noreferrer">
               {instagram}
             </a>
           </p>

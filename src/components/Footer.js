@@ -14,25 +14,19 @@ const Footer = class extends React.Component {
     const sel = select(props.langKey);
     return (
       <footer>
-        <div>
-          <div>
-              <div className="columns">
-                <div className="column is-4">
-        
-                </div>
-                </div>
-                <div className="column is-4 social">
-                  <a title="facebook" href="https://facebook.com">
+
+                <div className="content has-text-centered">
+                <a title="facebook" href="https://facebook.com">
                      <FaFacebook className="facebook-icon"  size="2em"/>
                   </a>
                   <a title="instagram" href="https://instagram.com">
                     <FaInstagram className="instagram-icon" size="2em"/>
                   </a>
-                </div>
-              </div>
-            </div>
-            <Copyright />
-        <ScrollToTop/>
+                  <p>2020, Feng Shui & Modern design - All rights reserved.</p>
+                  </div>
+                
+
+            <ScrollToTop/>
       </footer>
     )
   }

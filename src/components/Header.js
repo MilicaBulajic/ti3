@@ -94,6 +94,9 @@ const Header = class extends React.Component {
           <Link className="navbar-item" to={"/" + props.langKey + "/" + menuTree.about[sel] +"/"}>
             <FormattedMessage id="about" />
           </Link>
+          <Link className="navbar-item" to={"/" + props.langKey + "/" + menuTree.artworks[sel] +"/"}>
+            <FormattedMessage id="Services" />
+          </Link>
           <Link className="navbar-item" to={"/" + props.langKey + "/" + menuTree.blog[sel] +"/"}>
             <FormattedMessage id="blog" />
           </Link>

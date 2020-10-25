@@ -8,7 +8,7 @@ tags:
 lang: en
 date: "05-03-2019"
 image: /img/PersimmonHD.jpg
-heading: "The persimmon is the artist fruit..."
+heading: "Dear friends welcome to"
 slider:
   display: 'slide'
   array:
@@ -41,7 +41,7 @@ path: /en/
 slug: /en/
 ---
 
-# Dear friends welcome to Feng Shui & Modern design
+# Feng Shui Your Home
 <br>
 
 The most important question you can ask yourself is who am I and why am I here? What is the true purpose of life? Do I live my true calling or is my life a routine? Do I live with ease and go with a flow? Do I want better relationships? Better health? Carrier luck or more financial flow?

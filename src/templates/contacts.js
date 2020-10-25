@@ -117,22 +117,6 @@ const ContactPageTemplate = ({
         <div className="field">
         <label className="label">
         <p className="content has-text-weight-semibold">{option}</p>
-            <div className="select">
-            <select
-              className="content"
-              name="type-enquiry"
-              defaultValue="Type of Enquiry"
-              onChange={handleChange}
-              required
-            >
-              <option name="options" disabled hidden>
-                Choose
-              </option>
-              <option>{optionA}</option>
-              <option>{optionB}</option>
-              <option>{optionC}</option>
-            </select>
-            </div>
           </label>
         </div>
         <div className="field">
@@ -229,10 +213,7 @@ class ContactPage extends React.Component {
                 content={dataMarkdown.html}
                 onSubmit={this.handleSubmit}
                 action={action}
-                option={intl.formatMessage({ id: 'contact.enquiry' })}
-                optionA={intl.formatMessage({ id: 'contact.enquiry.a' })}
-                optionB={intl.formatMessage({ id: 'contact.enquiry.b' })}
-                optionC={intl.formatMessage({ id: 'contact.enquiry.c' })}
+
                  />
             </div>
           )}
