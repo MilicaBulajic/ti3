@@ -8,8 +8,8 @@ tags:
 lang: it
 image: /img/PersimmonHD.jpg
 date: "31-03-2019"
-path: /it/contatto/grazie/
-slug: /it/contatto/grazie/
+path: /sr/contatto/grazie/
+slug: /sr/contatto/grazie/
 ---
 
 Grazie! Verrete contattati al più presto, nel frattempo vi auguriamo una buona visita e buona continuazione!

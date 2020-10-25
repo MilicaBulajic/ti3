@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import { FormattedMessage } from 'react-intl';
 import En from './Flags/En';
-import It from './Flags/It';
+import Sr from './Flags/Sr';
 
 const getIcon = langKey => {
   switch (langKey) {
     case 'en': return <En />;
-    case 'it': return <It />;
+    case 'sr': return <Sr />;
     default: return null;
   }
 };
