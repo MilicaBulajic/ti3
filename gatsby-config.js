@@ -2,12 +2,12 @@ const languages = require('./src/data/languages');
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby with Bulma and i18n`,
+    title: `Feng Shui & Modern design`,
     description: `
   This is a blog theme. The description will be showed in SEO results on pages
   without their own descriptions.
 `,
-    siteUrl: "https://gatsby-starter-i18n-bulma.netlify.app",
+    siteUrl: "https://fengshui.netlify.app/",
     image: 'img.jpg',
     author: {
       name: 'Your Name',

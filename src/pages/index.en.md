@@ -41,48 +41,15 @@ path: /en/
 slug: /en/
 ---
 
-# Feng Shui & Modern design
+# Dear friends welcome to Feng Shui & Modern design
 <br>
 
-Iis iis domesticarum. Legam aliquip cernantur, ea et nisi aute export. Id illum
-doctrina vidisse ab iis sint o quorum. Do et quae malis aute do aute ab
-nescius.Ex amet eu culpa te ad multos do nulla, amet commodo et tractavissent de
-quae incididunt fidelissimae an nostrud ab veniam, cernantur illum e cernantur
-voluptatibus, veniam probant domesticarum iis nam minim iis aliqua. Vidisse
-fugiat iudicem ingeniis, tamen in ullamco o multos a illum appellat cupidatat,
-esse eu offendit. Senserit anim iis commodo exquisitaque, quae vidisse si dolor
-quem, iis fugiat firmissimum a id anim ab anim, amet firmissimum mandaremus
-summis quamquam, ubi non illustriora ut et aliqua quis hic singulis aut se legam
-doctrina. Duis ingeniis quo nostrud ea sed culpa non legam, fabulas fore magna
-doctrina aute ubi nostrud dolore admodum ad ita esse officia, de ea amet ullamco
-ex officia veniam sunt appellat anim e id anim expetendis quamquam.
+The most important question you can ask yourself is who am I and why am I here? What is the true purpose of life? Do I live my true calling or is my life a routine? Do I live with ease and go with a flow? Do I want better relationships? Better health? Carrier luck or more financial flow?
+If you feel that you don’t have control over your life, if you stopped on any of those questions, maybe is now the time to change? To start loving life and live your dreams? To live in prosperity and abundance?
 
-Export arbitrantur ingeniis malis iudicem quo mentitum ne nulla vidisse est quo
-labore offendit fabulas, a in multos elit sint, occaecat ne legam, a ea culpa
-esse export, culpa do nostrud ex quid, in senserit exercitation. Ita irure
-fabulas praesentibus. Velit expetendis domesticarum hic minim ab id labore
-incididunt. Constias ab esse se non quorum constias, expetendis ea irure iis
-multos coniunctione iudicem enim proident hic ullamco aute offendit pariatur, in
-culpa incididunt, et dolor adipisicing do eiusmod amet vidisse.Offendit
-consectetur de officia, an anim sint a proident. Laboris id iudicem, et tamen
-aliquip admodum ex irure ut a noster arbitror, eu illum cohaerescant. Vidisse
-veniam tempor ex quae de proident minim mentitum constias.
+Being here it means that you are already halfway to live your balanced and abundant life!
+Feng Shui is an ancient Chinese art (based on directions, formulas, time, space) which we use in our modern time and modern home design to help us create the life we desire. When we heal the energy in us and around us, we transform our life.
 
-Eu singulis o doctrina, in tamen ex quorum. Nisi quo laboris, possumus
-familiaritatem ne ullamco, hic si praesentibus, doctrina est incurreret. Velit
-quo possumus, senserit amet voluptate offendit. Aut enim dolor ubi
-quibusdam.Incididunt cillum mandaremus se eu legam illustriora. Anim laborum o
-probant et nisi concursionibus incididunt sunt arbitror. Cillum domesticarum
-nescius export commodo. Ab tamen cohaerescant.
+We enhance the good energy of the space which will positively influence your life and bring good fortune. We also heal/balance the negative energy of the space which blocks us and create obstacles in our life. Each area of the house is connected with one of the areas of your life. The balance of the energy in your house will eventually reflect in your life.
 
-Nostrud noster officia, do cillum magna tempor singulis, mentitum fore te
-mandaremus praesentibus eu ullamco ea malis, et dolore comprehenderit qui
-singulis ad magna, incurreret ubi quorum eu tamen doctrina nam consequat. Est
-fore ipsum id cupidatat, a e tamen quibusdam an do aut ipsum dolor fore, a malis
-irure ab iudicem ubi an amet eruditionem, expetendis ubi anim, quorum iis
-eiusmod, officia ita amet deserunt. Fabulas esse eu mandaremus concursionibus
-aut fore vidisse transferrem.O labore proident praesentibus et pariatur tempor
-velit litteris malis, non aliqua graviterque qui commodo instituendarum ad
-commodo. Illum se singulis in sunt, quibusdam distinguantur hic expetendis, nam
-incididunt ubi expetendis, legam senserit possumus. Incididunt enim enim ea
-culpa.
+When you intentionally align your living place with a good energy flow, it will support you and help you improve your life. You can know once again, that all things are possible! We are happy to help you achieve all this!
