@@ -18,11 +18,10 @@ const FeatureGrid = ({ gridItems }) => (
                         display: 'inline-block',
                       }}
                     >
-                    <PreviewCompatibleImage  imageInfo={item} />
+      
                 </div>
                   <div className="content">
                     <p className="is-size-6-touch is-size-6-desktop is-size-7-widescreen">{item.text}</p>
-                    <a className="is-size-7-touch is-size-7-desktop is-size-8-widescreen" href={item.link}><FaSearch className="menu-names"/><FormattedMessage id="find-out-more"/></a>
                   </div>
               </div>
             </div>

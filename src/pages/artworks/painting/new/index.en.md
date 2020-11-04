@@ -2,7 +2,7 @@
 id: '19'
 title: "New Painting artworks page - english"
 image: /img/Persimmon.jpg
-heading: The beauty of Persimmon
+heading: What our Feng Shui consultation consists of
 description: "Artworks page for newest painting"
 templateKey: artworks
 tags:

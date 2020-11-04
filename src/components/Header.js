@@ -85,17 +85,12 @@ const Header = class extends React.Component {
           <BrowserView viewClassName='navbar-item has-dropdown is-hoverable'>
 
           </BrowserView>
-          <MobileView viewClassName='navbar-item has-dropdown is-hoverable'>
-            <RootMenuMobile
-              langKey={props.langKey}
-              base={"/" + props.langKey + "/" + menuTree.artworks[sel] +"/"}
-              />
-          </MobileView>
+
           <Link className="navbar-item" to={"/" + props.langKey + "/" + menuTree.about[sel] +"/"}>
             <FormattedMessage id="about" />
           </Link>
           <Link className="navbar-item" to={"/" + props.langKey + "/" + menuTree.artworks[sel] +"/"}>
-            <FormattedMessage id="Services" />
+            <FormattedMessage id="services" />
           </Link>
           <Link className="navbar-item" to={"/" + props.langKey + "/" + menuTree.blog[sel] +"/"}>
             <FormattedMessage id="blog" />

@@ -25,9 +25,8 @@ const ArtworkTemplate = ({
   const PageContent = contentComponent || Content
   return (
       <div className="container content">
-       <h1 className="title animated bounceInLeft">{title}</h1>
+       <h1 className="title animated bounceInLeft"></h1>
         <div className="hero">
-          <Slider array={array} display={display}/>
             <div className="section">
               <h2 className="has-text-weight-semibold subtitle">
               {heading}
@@ -38,13 +37,7 @@ const ArtworkTemplate = ({
              </div>
              <Features gridItems={intro.blurbs} />
           </div>
-             <div className="container content">
-               <Testimonials testimonials={testimonials} />
-             </div>
-             <section className="section">
-               <PageContent className="container content" content={content} />
-                <TagList tags={tags} langKey={langKey}/>
-             </section>
+   
       </div>
     )
 }

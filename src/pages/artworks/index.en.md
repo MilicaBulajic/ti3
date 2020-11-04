@@ -2,9 +2,9 @@
 id: '05'
 title: "Artworks start page english"
 image: /img/Persimmon.jpg
-heading: The beauty of Persimmon
+heading: What our Feng Shui consultation consists of
 headingDesc: >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
 description: "The root of the artwork page"
 templateKey: artworks
 tags:
@@ -16,25 +16,30 @@ slug: /en/artworks/
 intro:
   blurbs:
     - image: /img/Persimmon.jpg
-      heading: Painting
+      heading: Directions and Bagua areas marked on Floor Plan
       link: /en/artworks/painting/
       text: >
-        In these pages you can find some interesting reflections on the persimmon.In these pages you can find some interesting reflections on the persimmon.In these pages you can find some interesting reflections on the persimmon.In these pages you can find some interesting reflections on the persimmon.In these pages you can find some interesting reflections on the persimmon.In these pages you can find some interesting reflections on the persimmon.v
+        this maps out the energy in every area of the house and representing the eight directional areas of the house.
     - image: /img/Kaki.jpg
-      heading: Sculpture
+      heading: Flying Star Worksheet
       link: /en/artworks/sculpture/
       text: >
-        Many artists have portrayed the persimmon tree, discover how many they have been fascinated by.
+        this is an astrological chart which uses time, space and objects to analyse positive and negative areas of the house and to heal/balance the energy. This includes analysing health, wealth, relationships, etc. of inhabitants. Please note that for the full effect of Feng Shui, a yearly update for the remedies needs to be done, since every calendar year the energy of the house changes.
     - image: /img/Caco.jpg
-      heading: Performance
+      heading: Intentional Bagua Map
       link: /en/artworks/performance/
       text: >
-        The Perfection is revealed in detail...
+        in this section we map out the 9 zones of your house each one of which represents a particular area of your life (health, wealth, relationships, etc.), to intentionally align the energy of the space with the life you want to live.
     - image: /img/Kaki_di_Misilmeri.jpg
-      heading: Interactive Art
+      heading: Final report breakdown for remedies
       link: /en/artworks/interactivity/
       text: >
-        If only I could eat one of those fruits ...
+        this is the report determining remedies derived from what is calculated in the Flying stars worksheet, which suggest the elements to use and ways how to balance the energy in every area of the house.
+    - image: /img/Kaki_di_Misilmeri.jpg
+      heading: Personal Trigram
+      link: /en/artworks/interactivity/
+      text: >
+        this is based on your date of birth and gender and it is used to show your compatibility with building space, e.g. your most supportive directions for sleeping, working, etc; for all residents of your home (to a max. of 6 people)
 slider:
   display: 'slide'
   array:
