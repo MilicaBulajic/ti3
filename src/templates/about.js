@@ -16,32 +16,37 @@ const AboutPageTemplate = ({ title, content, contentComponent, tags, langKey, ar
         <section className="section">
           <PageContent className="container content" content={content} />
           <div class="columns">
-  <div class="column">
-    <p class="bd-notification is-info">First column</p>
-    <div class="columns is-mobile">
-      <div class="column">
-        <p class="bd-notification is-info">First nested column</p>
-      </div>
-      <div class="column">
-        <p class="bd-notification is-info">Second nested column</p>
-      </div>
-    </div>
-  </div>
-  <div class="column">
-    <p class="bd-notification is-danger">Second column</p>
-    <div class="columns is-mobile">
-      <div class="column is-half">
-        <p class="bd-notification is-danger">50%</p>
-      </div>
-      <div class="column">
-        <p class="bd-notification is-danger">Auto</p>
-      </div>
-      <div class="column">
-        <p class="bd-notification is-danger">Auto</p>
-      </div>
-    </div>
-  </div>
-</div>
+              <div class="column">
+                <p class="bd-notification is-info">Please be aware that Full Consultation package has the most effect of Feng Shui in your home and life.</p>
+                
+                <div class="columns is-mobile">
+                  <div class="column">
+                    <h4 class="bd-notification is-info">Full Home Consultation Package</h4>
+                    <p>includes: Directions and Bagua areas, Flying Star worksheet, intentional Bagua Map, Remedies Report, Personal trigram</p>
+                  </div>
+                  <div class="column">
+                    <h4 class="bd-notification is-info">Full Home Consultation Package + Mood Board/ design suggestions</h4>
+                    <p>includes: Directions and Bagua areas, Flying Star worksheet, intentional Bagua Map, Remedies Report, Personal trigram and a mood board with suggestions of how to create modern home design with Feng Shui which you can relate to the given remedies</p>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <p class="bd-notification is-danger">Or you can choose other individual services as follows</p>
+                <div class="columns is-mobile">
+                  <div class="column is-half">
+                    <h4 class="bd-notification is-danger">Directions and Bagua areas and the Intentional Bagua map</h4>
+                    <p>with the different elements to be used in specific areas marked on the plan of your home.</p>
+                  </div>
+                  <div class="column">
+                    <h4 class="bd-notification is-danger">Flying star worksheet + report breakdown for remedies</h4>
+                     <p>with the different elements to be used in specific areas marked on the plan of your home.</p>
+                  </div>
+                  <div class="column">
+                    <h4 class="bd-notification is-danger">Personal Trigram</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
 
           <TagList tags={tags} langKey={langKey}/>
           <Slider array={array} display={display}/>

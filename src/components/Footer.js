@@ -17,13 +17,13 @@ const Footer = class extends React.Component {
 
                 <div className="content has-text-centered">
                   <hr />
-                <a title="facebook" target="_blank" href="https://facebook.com/fengshui.home">
+                <a title="facebook" target="_blank" href="https://www.facebook.com/fengshuimoderndesign/">
                      <FaFacebook className="facebook-icon"  size="2em"/>
                   </a>
                   <a title="instagram" target="_blank" href="https://instagram.com/fengshui.home">
                     <FaInstagram className="instagram-icon" size="2em"/>
                   </a>
-                  <p>2020, Feng Shui & Modern design - All rights reserved.</p>
+                  <p>© 2020, Feng Shui & Modern design - All rights reserved.</p>
                   </div>
                 
 

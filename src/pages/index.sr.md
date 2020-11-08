@@ -8,7 +8,7 @@ tags:
 lang: sr
 date: "05-03-2019"
 image: /img/Persimmon.jpg
-heading: "Dragi prijatelji dobrodosli"
+heading: "Dragi prijatelji dobrodosli na"
 slider:
   display: 'slide'
   array:

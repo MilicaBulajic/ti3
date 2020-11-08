@@ -1,6 +1,6 @@
 ---
 id: '03'
-title: "Pagina a proposito di me"
+title: "Choose your own package"
 description: "Qualcosa su di me"
 templateKey: about
 lang: sr
@@ -10,4 +10,3 @@ path: /sr/presentazione/
 slug: /sr/presentazione/
 ---
 
-Hello! ciao! Qualcosa su di me!

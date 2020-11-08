@@ -2,9 +2,9 @@
 id: '05'
 title: "Pagina principale opere italiano"
 image: /img/Persimmon.jpg
-heading: La bellezza del caco
+heading: What our Feng Shui consultation consists of
 headingDesc: >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
 description: "La pagina principale delle opere"
 templateKey: artworks
 tags:
@@ -16,25 +16,25 @@ slug: /sr/opere/
 intro:
   blurbs:
     - image: /img/Persimmon.jpg
-      heading: Pittura
+      heading: Directions and Bagua areas marked on Floor Plan
       link: /sr/opere/pittura/
       text: >
-        In queste pagine potete trovare alcune interessante riflessioni sul caco.
+        this maps out the energy in every area of the house and representing the eight directional areas of the house..
     - image: /img/Persimmon.jpg
-      heading: Scultura
+      heading: Directions and Bagua areas marked on Floor Plan
       link: /sr/opere/scultura/
       text: >
-        Molti artisti hanno ritratto l'albero del caco, scopri quanti ne sono rimasti affascinati.
+        this maps out the energy in every area of the house and representing the eight directional areas of the house.
     - image: /img/Persimmon.jpg
-      heading: Performance
+      heading: Directions and Bagua areas marked on Floor Plan
       link: /sr/opere/performance/
       text: >
-        La Perfezione si rivela nel dettaglio...
+        this maps out the energy in every area of the house and representing the eight directional areas of the house.
     - image: /img/Kaki_di_Misilmeri.jpg
-      heading: Arte Interattiva
+      heading: Directions and Bagua areas marked on Floor Plan
       link: /sr/opere/arte-interattiva/
       text: >
-        Se anche solo potessi mangiare uno di quei frutti...
+        this maps out the energy in every area of the house and representing the eight directional areas of the house.
 slider:
   display: 'slide'
   array:

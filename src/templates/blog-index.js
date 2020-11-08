@@ -5,6 +5,7 @@ import BlogRoll from '../components/BlogRoll'
 import SEO from '../components/SEO/SEO'
 import { FormattedMessage } from 'react-intl';
 import { graphql } from 'gatsby'
+import blog from "../../public/img/blog.jpg"
 
 export default class BlogIndexPage extends React.Component {
 
@@ -24,15 +25,15 @@ export default class BlogIndexPage extends React.Component {
             <div
                 className="full-width-image-container margin-top-0"
                 style={{
-                  backgroundImage: `url('https://upload.wikimedia.org/wikipedia/commons/3/34/Persimmons_yamagata_2005-10.JPG')`,
+                  backgroundImage: `url(${blog})`,
+                  backgroundPosition: 'right'
                 }}
               >
                 <h1
                   className="has-text-weight-bold is-size-1"
                   style={{
-                    boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-                    backgroundColor: '#f40',
-                    color: 'white',
+                    backgroundColor: 'rgba(255,255,255,0.45)',
+                    color: '#4a4a4a',
                     padding: '1rem',
                   }}
                 >
