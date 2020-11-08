@@ -108,7 +108,7 @@ query ArtworksIntroQuery($id: String!) {
        node {
          articles {
            en
-           it
+           sr
          }
        }
      }

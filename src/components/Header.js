@@ -82,7 +82,7 @@ const Header = class extends React.Component {
           <Link className="navbar-item" to={"/" + props.langKey}>
             <FormattedMessage id="home" />
           </Link>
-          <BrowserView viewClassName='navbar-item has-dropdown is-hoverable'>
+          <BrowserView viewClassName=''>
 
           </BrowserView>
 

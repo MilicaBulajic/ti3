@@ -127,7 +127,7 @@ query ArtworksSimpleQuery($id: String!) {
    node{
      articles {
        en
-       it
+       sr
      }
    }
  }
@@ -149,13 +149,7 @@ query ArtworksSimpleQuery($id: String!) {
        }
        heading
        description
-      info{
-        title
-        artworkTitle
-        year
-        technique
-        dimensions
-      }
+      
       masonry{
         photos{
           src
@@ -178,20 +172,7 @@ query ArtworksSimpleQuery($id: String!) {
           description
         }
       }
-      lightbox {
-        display
-        images{
-          image {
-            childImageSharp {
-              fluid(maxWidth: 1200, quality: 85) {
-                ...GatsbyImageSharpFluid
-                src
-              }
-            }
-          }
-          alt
-        }
-      }
+
     }
   }
 }

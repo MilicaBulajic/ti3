@@ -8,12 +8,12 @@ import { IntlProvider, addLocaleData } from 'react-intl';
 import 'intl';
 import en from 'react-intl/locale-data/en';
 import 'intl/locale-data/jsonp/en';
-import it from 'react-intl/locale-data/it';
-import 'intl/locale-data/jsonp/it';
+import sr from 'react-intl/locale-data/sr';
+import 'intl/locale-data/jsonp/sr';
 import './all.sass'
 
 // add concatenated locale data
-addLocaleData([...en, ...it]);
+addLocaleData([...en, ...sr]);
 
 class TemplateWrapper extends Component {
   constructor(props) {

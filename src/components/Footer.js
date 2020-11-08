@@ -16,10 +16,10 @@ const Footer = class extends React.Component {
       <footer>
 
                 <div className="content has-text-centered">
-                <a title="facebook" href="https://facebook.com">
+                <a title="facebook" href="https://facebook.com/fengshui.home">
                      <FaFacebook className="facebook-icon"  size="2em"/>
                   </a>
-                  <a title="instagram" href="https://instagram.com">
+                  <a title="instagram" href="https://instagram.com/fengshui.home">
                     <FaInstagram className="instagram-icon" size="2em"/>
                   </a>
                   <p>2020, Feng Shui & Modern design - All rights reserved.</p>

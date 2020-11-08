@@ -9,7 +9,7 @@ const switchData = (data, langKey) => {
     case('en'):
      return posts = data.en;
     break;
-    case('it'):
+    case('sr'):
      return posts = data.it;
     break;
     default: return ' ';

@@ -109,7 +109,7 @@ query ArtworksPortfolioQuery($id: String!) {
    node{
      articles {
        en
-       it
+       sr
      }
    }
  }

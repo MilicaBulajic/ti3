@@ -4,7 +4,7 @@ const select = (langKey) => {
   case('en'):
   res = 0;
   break;
-  case('it'):
+  case('sr'):
   res = 1;
   break;
   default:

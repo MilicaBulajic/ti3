@@ -8,8 +8,8 @@ import { IntlProvider, addLocaleData } from 'react-intl';
 import 'intl';
 import en from 'react-intl/locale-data/en';
 import 'intl/locale-data/jsonp/en';
-import it from 'react-intl/locale-data/it';
-import 'intl/locale-data/jsonp/it';
+import sr from 'react-intl/locale-data/sr';
+import 'intl/locale-data/jsonp/sr';
 import './all.sass'
 
 const getIdJsonUrl = (id, langKey, jsonData) => {
@@ -20,8 +20,8 @@ const getIdJsonUrl = (id, langKey, jsonData) => {
     case 'en':
     res = jsonData[id].en;
     break;
-    case 'it':
-    res = jsonData[id].it;
+    case 'sr':
+    res = jsonData[id].sr;
     break;
     default: return ' ';
   }
@@ -50,14 +50,14 @@ const check_path = (langKey, _url, id_article, jsonData) => {
 const setLangsMenu = ( langsMenu, id, basePath, jsonData) => {
   if(id !== 'undefined'){
   langsMenu[0].link = `/en/${basePath}` + getIdJsonUrl(id, 'en', jsonData) + '/';
-  langsMenu[1].link = `/it/${basePath}` + getIdJsonUrl(id, 'it', jsonData) + '/';
+  langsMenu[1].link = `/sr/${basePath}` + getIdJsonUrl(id, 'sr', jsonData) + '/';
   }else{
   console.log("missed id in the setLangsMenu() function!");
   }
 };
 
 // add concatenated locale data
-addLocaleData([...en, ...it]);
+addLocaleData([...en, ...sr]);
 
 class TemplateWrapper extends Component {
   constructor(props) {

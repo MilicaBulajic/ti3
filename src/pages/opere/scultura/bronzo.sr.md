@@ -1,42 +1,41 @@
 ---
-id: '18'
-title: "Pagina introduttiva sulle opere artistiche pittoriche"
+id: '21'
+title: "Pagina introduttiva sulle opere di scultura in bronzo"
 image: /img/Persimmon.jpg
 heading: La bellezza del caco
-description: "Pagina introduttiva sulle sezioni delle opere pittoriche"
+description: "Pagina introduttiva sulle sezioni delle opere di scultura in bronzo"
 templateKey: artworks-intro
 tags:
   - art
-  - pittura
-lang: it
-date: "15-03-2019"
-path: /it/opere/pittura/introduzione/
-slug: /it/opere/pittura/introduzione/
+lang: sr
+date: "05-03-2019"
+path: /sr/opere/scultura/bronzo/
+slug: /sr/opere/scultura/bronzo/
 intro:
   blurbs:
     - image: /img/Persimmon.jpg
       heading: Pittura
-      link: /it/opere/pittura/
+      link: /sr/opere/pittura/
       text: >
         Dovresti testare il frutto del caco, ne vale la pena!
     - image: /img/Persimmon.jpg
       heading: Scultura
-      link: /it/opere/scultura/
+      link: /sr/opere/scultura/
       text: >
         Perchè non decidi di piantare un'albero di caco nel tuo giardino?
     - image: /img/Persimmon.jpg
       heading: Performance
-      link: /it/opere/performance/
+      link: /sr/opere/performance/
       text: >
         La Perfezione si rivela nel dettaglio...
     - image: /img/Persimmon.jpg
       heading: Arte Interattiva
-      link: /it/opere/arte-interattiva/
+      link: /sr/opere/arte-interattiva/
       text: >
         Se anche solo potessi mangiare uno di quei frutti...
 ---
 
-### Introduzione alla Pittura e alla bellezza del caco
+### Introduzione alla bellezza del caco
 
 Quo velit fore a occaecat ab si laborum si nostrud et fabulas quem legam est
 velit, dolor eu voluptate se legam. Tamen mandaremus hic incurreret, aut aute

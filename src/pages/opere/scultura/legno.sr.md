@@ -1,41 +1,41 @@
 ---
 id: '06'
-title: "Pagina introduttiva sulle opere di scultura in altri materiali"
+title: "Pagina introduttiva sulle opere di scultura in legno"
 image: /img/Persimmon.jpg
 heading: La bellezza del caco
-description: "Pagina introduttiva sulle sezioni delle opere di scultura in altri materiali"
+description: "Pagina introduttiva sulle sezioni delle opere di scultura in legno"
 templateKey: artworks-intro
 tags:
   - art
-lang: it
+lang: sr
 date: "05-03-2019"
-path: /it/opere/scultura/altri-materiali/
-slug: /it/opere/scultura/altri-materiali/
+path: /sr/opere/scultura/legno/
+slug: /sr/opere/scultura/legno/
 intro:
   blurbs:
     - image: /img/Persimmon.jpg
       heading: Pittura
-      link: /it/opere/pittura/
+      link: /sr/opere/pittura/
       text: >
         Dovresti testare il frutto del caco, ne vale la pena!
-    - image: /img/Kaki.jpg
+    - image: /img/Persimmon.jpg
       heading: Scultura
-      link: /it/opere/scultura/
+      link: /sr/opere/scultura/
       text: >
         Perchè non decidi di piantare un'albero di caco nel tuo giardino?
-    - image: /img/Caco.jpg
+    - image: /img/Persimmon.jpg
       heading: Performance
-      link: /it/opere/performance/
+      link: /sr/opere/performance/
       text: >
         La Perfezione si rivela nel dettaglio...
-    - image: /img/Kaki_di_Misilmeri.jpg
+    - image: /img/Persimmon.jpg
       heading: Arte Interattiva
-      link: /it/opere/arte-interattiva/
+      link: /sr/opere/arte-interattiva/
       text: >
         Se anche solo potessi mangiare uno di quei frutti...
 ---
 
-### Scultura in altri materiali
+### Introduzione alla bellezza del caco
 
 Quo velit fore a occaecat ab si laborum si nostrud et fabulas quem legam est
 velit, dolor eu voluptate se legam. Tamen mandaremus hic incurreret, aut aute
