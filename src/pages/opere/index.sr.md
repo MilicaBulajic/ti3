@@ -20,12 +20,12 @@ intro:
       link: /it/opere/pittura/
       text: >
         In queste pagine potete trovare alcune interessante riflessioni sul caco.
-    - image: /img/Kaki.jpg
+    - image: /img/Persimmon.jpg
       heading: Scultura
       link: /it/opere/scultura/
       text: >
         Molti artisti hanno ritratto l'albero del caco, scopri quanti ne sono rimasti affascinati.
-    - image: /img/Caco.jpg
+    - image: /img/Persimmon.jpg
       heading: Performance
       link: /it/opere/performance/
       text: >

@@ -45,9 +45,6 @@ const ContactPageTemplate = ({
       <ContactDetails
       infos={infos}
       image={image}
-      address={address}
-      phone={phone}
-      email={email}
       />
     <div className="box">
     <h4 className="subtitle"><FormattedMessage id="contact.fill-the-form"/></h4>
@@ -218,7 +215,6 @@ class ContactPage extends React.Component {
             </div>
           )}
         </Format>
-        <OsmMap lat={lat} lng={lng} message={message}/>
       <FollowUs link={linkinsta} instagram={instagram}/>
     </Layout>
     )

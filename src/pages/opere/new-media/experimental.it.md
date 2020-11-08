@@ -16,7 +16,7 @@ intro:
     - image: /img/Persimmon.jpg
       text: >
         Bisognerebbe interagire di più con il caco, ne migliorerebbe la salute!
-    - image: /img/Kaki.jpg
+    - image: /img/Persimmon.jpg
       text: >
         Hai mai pensato di creare un bosco di cachi?
 slider:

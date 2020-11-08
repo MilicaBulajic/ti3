@@ -14,7 +14,7 @@ slug: /it/opere/performance/performance01/
 lightbox:
   display: true
   images:
-    - image: /img/Kaki.jpg
+    - image: /img/Persimmon.jpg
       alt: "qualche Kako sull albero"
     - image: /img/Persimmon.jpg
       alt: "Un albero del Kako"

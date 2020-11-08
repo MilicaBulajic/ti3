@@ -16,7 +16,7 @@ intro:
     - image: /img/Persimmon.jpg
       text: >
         We should interact more with the persimmon, it would improve its health!
-    - image: /img/Kaki.jpg
+    - image: /img/Persimmon.jpg
       text: >
         Have you ever thought of creating a persimmon forest?
 slider:

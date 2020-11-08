@@ -56,7 +56,7 @@ module.exports = {
   '404': "You are arrived to an unvailable page or you have missed the path...",
   'copyright': "2020, Feng Shui & Modern design - All rights reserved.",
   'menu-icon-message': "Choose a section",
-  'menu-icon-subtitle': "Artworks sections",
+  'menu-icon-subtitle': "Choose your own package",
   'menu-icon-painting': "Painting",
   'menu-icon-sculpture': "Sculpture",
   'menu-icon-performance': "Performance",

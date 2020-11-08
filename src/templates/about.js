@@ -5,15 +5,43 @@ import { graphql } from 'gatsby'
 import Layout from "../components/Layout"
 import SEO from '../components/SEO/SEO'
 import Slider from '../components/Slider'
+import IconMenu from '../components/IconMenu'
 import Content, { HTMLContent } from "../components/Content"
 
-const AboutPageTemplate = ({ title, content, contentComponent, tags, langKey, array, display }) => {
+const AboutPageTemplate = ({ title, content, contentComponent, tags, langKey, array, display, firstLink, secondLink, thirdLink, fourthLink }) => {
   const PageContent = contentComponent || Content
   return (
       <div className="container content">
        <h1 className="title animated">{title}</h1>
         <section className="section">
           <PageContent className="container content" content={content} />
+          <div class="columns">
+  <div class="column">
+    <p class="bd-notification is-info">First column</p>
+    <div class="columns is-mobile">
+      <div class="column">
+        <p class="bd-notification is-info">First nested column</p>
+      </div>
+      <div class="column">
+        <p class="bd-notification is-info">Second nested column</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-danger">Second column</p>
+    <div class="columns is-mobile">
+      <div class="column is-half">
+        <p class="bd-notification is-danger">50%</p>
+      </div>
+      <div class="column">
+        <p class="bd-notification is-danger">Auto</p>
+      </div>
+      <div class="column">
+        <p class="bd-notification is-danger">Auto</p>
+      </div>
+    </div>
+  </div>
+</div>
 
           <TagList tags={tags} langKey={langKey}/>
           <Slider array={array} display={display}/>

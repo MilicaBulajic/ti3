@@ -7,7 +7,7 @@ tags:
   - web
 lang: sr
 date: "05-03-2019"
-image: /img/PersimmonHD.jpg
+image: /img/Persimmon.jpg
 heading: "Il kako è il frutto dell'artista..."
 slider:
   display: 'slide'
@@ -24,7 +24,7 @@ mainpitch:
 main:
   image1:
     alt: un caco
-    image: /img/wildPersimmon.jpg
+    image: /img/Persimmon.jpg
 testimonials:
   - author: anonimo
     quote: >-

@@ -14,7 +14,7 @@ slug: /it/opere/pittura/nuova/arte-astratta-caco-tra-le-stelle/
 lightbox:
   display: true
   images:
-    - image: /img/Kaki.jpg
+    - image: /img/Persimmon.jpg
       alt: "qualche Kako sull albero"
     - image: /img/Persimmon.jpg
       alt: "Un albero del Kako"

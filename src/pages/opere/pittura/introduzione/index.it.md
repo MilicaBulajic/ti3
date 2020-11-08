@@ -19,17 +19,17 @@ intro:
       link: /it/opere/pittura/
       text: >
         Dovresti testare il frutto del caco, ne vale la pena!
-    - image: /img/Kaki.jpg
+    - image: /img/Persimmon.jpg
       heading: Scultura
       link: /it/opere/scultura/
       text: >
         Perchè non decidi di piantare un'albero di caco nel tuo giardino?
-    - image: /img/Caco.jpg
+    - image: /img/Persimmon.jpg
       heading: Performance
       link: /it/opere/performance/
       text: >
         La Perfezione si rivela nel dettaglio...
-    - image: /img/Kaki_di_Misilmeri.jpg
+    - image: /img/Persimmon.jpg
       heading: Arte Interattiva
       link: /it/opere/arte-interattiva/
       text: >

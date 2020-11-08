@@ -14,7 +14,7 @@ slug: /it/opere/performance/performance04/
 lightbox:
   display: true
   images:
-    - image: /img/Kaki.jpg
+    - image: /img/Persimmon.jpg
       alt: "qualche Kako sull albero"
     - image: /img/Persimmon.jpg
       alt: "Un albero del Kako"
@@ -29,7 +29,7 @@ intro:
     - image: /img/Persimmon.jpg
       text: >
         Hai mai fatto una performance con un caco? Io si!
-    - image: /img/Kaki.jpg
+    - image: /img/Persimmon.jpg
       text: >
         Immagina di arrampicarti su di un albero di caco, che cosa vedresti una volta in cima?
 slider:

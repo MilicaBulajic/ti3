@@ -16,7 +16,7 @@ intro:
     - image: /img/Persimmon.jpg
       text: >
         Hai mai fatto una performance con un caco? Io si!
-    - image: /img/Kaki.jpg
+    - image: /img/Persimmon.jpg
       text: >
         Immagina di arrampicarti su di un albero di caco, che cosa vedresti una volta in cima?
 slider:

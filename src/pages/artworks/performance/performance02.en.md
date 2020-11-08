@@ -14,7 +14,7 @@ slug: /en/artworks/performance/performance02/
 lightbox:
   display: true
   images:
-    - image: /img/Kaki.jpg
+    - image: /img/Persimmon.jpg
       alt: "Some Persimmon on the tree"
     - image: /img/Persimmon.jpg
       alt: "A Persimmon tree"
@@ -29,7 +29,7 @@ intro:
     - image: /img/Persimmon.jpg
       text: >
         Have you ever done a performance with a Persimmon? I do!
-    - image: /img/Kaki.jpg
+    - image: /img/Persimmon.jpg
       text: >
         Imagine climbing up a persimmon tree, what would you see once at the top?
 slider:

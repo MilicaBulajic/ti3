@@ -38,7 +38,7 @@ const IconMenu = class extends React.Component {
           <FormattedMessage id="menu-icon-subtitle"/>
         </h4>
       </div>
-    <div className="columns is-4 is-mobile is-multiline is-centered">
+    <div className="columns is-2 is-mobile is-multiline is-centered">
       <a className="column is-narrow has-text-centered" href={firstLink}>
         <span className="animated" style={{ display: 'inline-block', position: 'relative' }}>
           <FaCircle textAnchor="middle" alignmentBaseline="middle" style={{ fontSize: '3em'}}/>
@@ -47,6 +47,7 @@ const IconMenu = class extends React.Component {
            alignmentBaseline="middle"
            style={{ fontSize: '2.0em', position: 'absolute', right: '.25em', top: '.25em', color: 'white' }}
           />
+          <p>includes: Directions and Bagua areas, Flying Star worksheet, intentional Bagua Map, Remedies Report, Personal trigram) </p>
         </span>
       <div className="section">
         <h4 className="title has-text-centered">
@@ -69,36 +70,7 @@ const IconMenu = class extends React.Component {
           </h4>
         </div>
       </a>
-      <a className="column is-narrow has-text-centered" href={thirdLink}>
-      <span className="animated" style={{ display: 'inline-block', position: 'relative' }}>
-        <FaCircle textAnchor="middle" alignmentBaseline="middle" style={{ fontSize: '3em'}}/>
-        <FaBolt
-         textAnchor="middle"
-         alignmentBaseline="middle"
-         style={{ fontSize: '2.0em', position: 'absolute', right: '.25em', top: '.25em', color: 'white' }}
-        />
-      </span>
-        <div className="section">
-          <h4 className="title has-text-centered">
-            <FormattedMessage id="menu-icon-performance"/>
-          </h4>
-        </div>
-      </a>
-      <a className="column is-narrow has-text-centered" href={fourthLink}>
-      <span className="animated" style={{ display: 'inline-block', position: 'relative' }}>
-        <FaCircle textAnchor="middle" alignmentBaseline="middle" style={{ fontSize: '3em'}}/>
-        <FaHandPointer
-         textAnchor="middle"
-         alignmentBaseline="middle"
-         style={{ fontSize: '2.0em', position: 'absolute', right: '.25em', top: '.25em', color: 'white' }}
-        />
-      </span>
-        <div className="section">
-          <h4 className="title has-text-centered">
-            <FormattedMessage id="menu-icon-interactivity"/>
-          </h4>
-        </div>
-      </a>
+
       </div>
      </div>
      </div>

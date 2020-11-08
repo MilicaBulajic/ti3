@@ -17,7 +17,7 @@ const ContactDetails = ({ infos, address, image, phone, email }) =>(
                 imageInfo={image}
                 name={image.name}
                 description={image.description}
-                website={image.website}/>
+                email={image.email}/>
                 </div>
                 <div className="column is-vertical-center">
                   {address && (

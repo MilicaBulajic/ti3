@@ -16,7 +16,7 @@ intro:
     - image: /img/Persimmon.jpg
       text: >
         Who would have thought that a persimmon is perfect for a sculpture?
-    - image: /img/Kaki.jpg
+    - image: /img/Persimmon.jpg
       text: >
         No matter how many trees I've ever seen, nothing matches persimmon wood ...
 slider:

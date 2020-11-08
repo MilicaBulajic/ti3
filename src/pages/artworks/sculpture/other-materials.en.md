@@ -23,12 +23,12 @@ intro:
       link: /en/artworks/sculpture/
       text: >
         Why don't you decide to plant a persimmon tree in your garden?
-    - image: /img/Caco.jpg
+    - image: /img/Persimmon.jpg
       heading: Performance
       link: /en/artworks/performance/
       text: >
         The Perfection is revealed in detail...
-    - image: /img/Kaki_di_Misilmeri.jpg
+    - image: /img/Persimmon.jpg
       heading: Interactive Art
       link: /en/artworks/interactivity/
       text: >

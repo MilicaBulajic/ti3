@@ -16,7 +16,7 @@ intro:
     - image: /img/Persimmon.jpg
       text: >
         The persimmon is a fruit that grows on a tree and in autumn is tinged with orange ... How many poets did it inspire?
-    - image: /img/Kaki.jpg
+    - image: /img/Persimmon.jpg
       text: >
         Many ripe persimmon on a tree. A beautiful subject for painting.
 slider:
