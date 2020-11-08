@@ -1,6 +1,6 @@
 ---
 id: '01'
-title: "Pagina home italiano"
+title: "Feng Shui & Modern design"
 description: "qualche contenuto"
 templateKey: home
 tags:
@@ -8,7 +8,7 @@ tags:
 lang: sr
 date: "05-03-2019"
 image: /img/Persimmon.jpg
-heading: "Il kako è il frutto dell'artista..."
+heading: "Dragi prijatelji dobrodosli"
 slider:
   display: 'slide'
   array:
@@ -41,7 +41,7 @@ path: /sr/
 slug: /sr/
 ---
 
-# Kaki pagina home
+# home
 <br>
 
 Iis iis domesticarum. Legam aliquip cernantur, ea et nisi aute export. Id illum
