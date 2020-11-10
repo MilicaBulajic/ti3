@@ -1,7 +1,7 @@
 ---
 id: "02"
 templateKey: blog-index
-title: Pagina indice blog.
+title: bblog.
 date: 2020-11-05T20:07:47.854Z
 description: lorem
 lang: sr
