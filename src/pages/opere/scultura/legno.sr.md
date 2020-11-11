@@ -4,7 +4,7 @@ title: "Pagina introduttiva sulle opere di scultura in legno"
 image: /img/Persimmon.jpg
 heading: La bellezza del caco
 description: "Pagina introduttiva sulle sezioni delle opere di scultura in legno"
-templateKey: artworks-intro
+templateKey: services-intro
 tags:
   - art
 lang: sr

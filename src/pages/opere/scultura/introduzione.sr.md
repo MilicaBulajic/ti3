@@ -4,7 +4,7 @@ title: "Pagina di opere di scultura introduzione - italiano"
 image: /img/Persimmon.jpg
 heading: La bellezza del caco
 description: "Pagina dedicata alle opere di scultura - introduzione"
-templateKey: artworks-intro
+templateKey: services-intro
 tags:
   - art
 lang: sr

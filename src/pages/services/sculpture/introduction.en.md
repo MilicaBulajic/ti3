@@ -4,13 +4,13 @@ title: "Sculpture artworks introduction page - english"
 image: /img/Persimmon.jpg
 heading: The beauty of Persimmon
 description: "Artworks introduction page for sculpture"
-templateKey: artworks-intro
+templateKey: services-intro
 tags:
   - art
 lang: en
 date: "22-03-2019"
-path: /en/artworks/sculpture/introduction/
-slug: /en/artworks/sculpture/introduction/
+path: /en/services/sculpture/introduction/
+slug: /en/services/sculpture/introduction/
 intro:
   blurbs:
     - image: /img/Persimmon.jpg

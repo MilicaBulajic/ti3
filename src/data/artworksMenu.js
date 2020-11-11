@@ -1,8 +1,8 @@
 module.exports = {
-  'introduction': ['/en/artworks/introduction/','/sr/opere/introduzione/'],
-  'portfolio': ['/en/artworks/portfolio/','/sr/opere/portfolio/'],
-  'painting': ['/en/artworks/painting/', '/sr/opere/pittura/'],
-  'sculpture': ['/en/artworks/sculpture/', '/sr/opere/scultura/'],
-  'performance': ['/en/artworks/performance/', '/sr/opere/performance/'],
-  'interactivity': ['/en/artworks/interactivity/', '/sr/opere/arte-interattiva/'],
+  'introduction': ['/en/services/introduction/','/sr/opere/introduzione/'],
+  'portfolio': ['/en/services/portfolio/','/sr/opere/portfolio/'],
+  'painting': ['/en/services/painting/', '/sr/opere/pittura/'],
+  'sculpture': ['/en/services/sculpture/', '/sr/opere/scultura/'],
+  'performance': ['/en/services/performance/', '/sr/opere/performance/'],
+  'interactivity': ['/en/services/interactivity/', '/sr/opere/arte-interattiva/'],
 };

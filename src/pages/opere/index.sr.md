@@ -6,7 +6,7 @@ heading: What our Feng Shui consultation consists of
 headingDesc: >
 
 description: "La pagina principale delle opere"
-templateKey: artworks
+templateKey: services
 tags:
   - art
 lang: sr

@@ -20,9 +20,9 @@ const RootMenu = ( props ) => {
 
     return(
       <div className='navbar-item has-dropdown is-hoverable'>
-        <Link className="navbar-link" to={ "/" + props.langKey + "/" + menuTree.artworks[sel] + "/" }>
+        <Link className="navbar-link" to={ "/" + props.langKey + "/" + menuTree.services[sel] + "/" }>
           <FaImage className="menu-names" />
-          <FormattedMessage id="artworks"/>
+          <FormattedMessage id="services"/>
         </Link>
           <div className="dropdown-menu" id="dropdown-menu" role="menu">
              <div className="dropdown-content">

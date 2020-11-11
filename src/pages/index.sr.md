@@ -20,7 +20,7 @@ mainpitch:
   subheading: "Arte Interattiva"
   title: "Perche Kaki?"
   description: "Perche è un frutto dalle qualità incredibili..."
-  link: /en/artworks/new-media/augmented-reality/
+  link: /en/services/new-media/augmented-reality/
 main:
   image1:
     alt: un caco

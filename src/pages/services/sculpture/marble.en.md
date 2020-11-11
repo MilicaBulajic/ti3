@@ -1,41 +1,41 @@
 ---
-id: '23'
-title: "Artworks Introduction page - Other Materials Sculpture"
+id: '06'
+title: "Artworks Introduction page - Marble Sculpture"
 image: /img/Persimmon.jpg
 heading: The beauty of Persimmon
-description: "An introduction for the other materials artworks sculpture page"
-templateKey: artworks-intro
+description: "An introduction for the marble artworks sculpture page"
+templateKey: services-intro
 tags:
   - art
 lang: en
 date: "05-03-2019"
-path: /en/artworks/sculpture/other-materials/
-slug: /en/artworks/sculpture/other-materials/
+path: /en/services/sculpture/marble/
+slug: /en/services/sculpture/marble/
 intro:
   blurbs:
     - image: /img/Persimmon.jpg
       heading: Painting
-      link: /en/artworks/painting/
+      link: /en/services/painting/
       text: >
         You should test the fruit of the persimmon, it's worth it!
-    - image: /img/Kaki.jpg
+    - image: /img/Persimmon.jpg
       heading: Sculpture
-      link: /en/artworks/sculpture/
+      link: /en/services/sculpture/
       text: >
         Why don't you decide to plant a persimmon tree in your garden?
     - image: /img/Persimmon.jpg
       heading: Performance
-      link: /en/artworks/performance/
+      link: /en/services/performance/
       text: >
         The Perfection is revealed in detail...
-    - image: /img/Persimmon.jpg
+    - image: /img/Kaki_di_Misilmeri.jpg
       heading: Interactive Art
-      link: /en/artworks/interactivity/
+      link: /en/services/interactivity/
       text: >
         If only I could eat one of those fruits ...
 ---
 
-## Other materials sculpture
+## Marble sculpture
 
 Quo velit fore a occaecat ab si laborum si nostrud et fabulas quem legam est
 velit, dolor eu voluptate se legam. Tamen mandaremus hic incurreret, aut aute

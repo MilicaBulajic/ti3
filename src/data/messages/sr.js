@@ -11,7 +11,7 @@ module.exports = {
     } taggato  con`,
   'home': 'Početna',
   'about': 'O nama',
-  'artworks': 'Services',
+  'services': 'Services',
   'introduction': 'Introduzione',
   'portfolio': 'Portfolio',
   'painting': 'Pittura',

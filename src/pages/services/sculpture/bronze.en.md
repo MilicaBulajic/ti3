@@ -4,33 +4,33 @@ title: "Artworks Introduction page - Bronze Sculpture"
 image: /img/Persimmon.jpg
 heading: The beauty of Persimmon
 description: "An introduction for the bronze artworks sculpture page"
-templateKey: artworks-intro
+templateKey: services-intro
 tags:
   - art
 lang: en
 date: "05-03-2019"
-path: /en/artworks/sculpture/bronze/
-slug: /en/artworks/sculpture/bronze/
+path: /en/services/sculpture/bronze/
+slug: /en/services/sculpture/bronze/
 intro:
   blurbs:
     - image: /img/Persimmon.jpg
       heading: Painting
-      link: /en/artworks/painting/
+      link: /en/services/painting/
       text: >
         You should test the fruit of the persimmon, it's worth it!
     - image: /img/Persimmon.jpg
       heading: Sculpture
-      link: /en/artworks/sculpture/
+      link: /en/services/sculpture/
       text: >
         Why don't you decide to plant a persimmon tree in your garden?
     - image: /img/Persimmon.jpg
       heading: Performance
-      link: /en/artworks/performance/
+      link: /en/services/performance/
       text: >
         The Perfection is revealed in detail...
     - image: /Persimmon.jpg
       heading: Interactive Art
-      link: /en/artworks/interactivity/
+      link: /en/services/interactivity/
       text: >
         If only I could eat one of those fruits ...
 ---

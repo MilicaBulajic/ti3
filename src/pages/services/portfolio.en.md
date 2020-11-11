@@ -4,13 +4,13 @@ title: "Artistic portfolio"
 image: /img/Persimmon.jpg
 heading: ""
 description: "My artistic portfolio"
-templateKey: artworks-portfolio
+templateKey: services-portfolio
 tags:
   - art
 lang: en
 date: "05-05-2019"
-path: /en/artworks/portfolio/
-slug: /en/artworks/portfolio/
+path: /en/services/portfolio/
+slug: /en/services/portfolio/
 masonry:
   photos:
     - { src: 'https://source.unsplash.com/2ShvY8Lf6l0/800x599',
@@ -20,7 +20,7 @@ masonry:
       "https://source.unsplash.com/2ShvY8Lf6l0/1024x768 1024w",
       "https://source.unsplash.com/2ShvY8Lf6l0/1600x1200 1600w"
     ],
-    sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 4, height: 3, link: '/en/artworks/introduction/', alt: 'forest', title: 'The forest' }
+    sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 4, height: 3, link: '/en/services/introduction/', alt: 'forest', title: 'The forest' }
     - { src: 'https://source.unsplash.com/Dm-qxdynoEc/800x799',
     srcSet: [
       "https://source.unsplash.com/Dm-qxdynoEc/500x500 500w",
@@ -28,7 +28,7 @@ masonry:
       "https://source.unsplash.com/Dm-qxdynoEc/1024x1024 1024w",
       "https://source.unsplash.com/Dm-qxdynoEc/1600x1600 1600w"
     ],
-    sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 1, height: 1, link: '/en/artworks/painting/', alt: 'mushroom', title: 'The mushroom' }
+    sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 1, height: 1, link: '/en/services/painting/', alt: 'mushroom', title: 'The mushroom' }
     - { src: 'https://source.unsplash.com/qDkso9nvCg0/600x799',
     srcSet: [
       "https://source.unsplash.com/qDkso9nvCg0/375x500 375w",
@@ -36,7 +36,7 @@ masonry:
       "https://source.unsplash.com/qDkso9nvCg0/768x1024 768w",
       "https://source.unsplash.com/qDkso9nvCg0/1200x1600 1200w"
     ],
-    sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 3, height: 4, link: '/en/artworks/sculpture/', alt: 'lake', title: 'The lake' }
+    sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 3, height: 4, link: '/en/services/sculpture/', alt: 'lake', title: 'The lake' }
     - { src: 'https://source.unsplash.com/iecJiKe_RNg/600x799',
     srcSet: [
       "https://source.unsplash.com/iecJiKe_RNg/375x500 375w",
@@ -44,7 +44,7 @@ masonry:
       "https://source.unsplash.com/iecJiKe_RNg/768x1024 768w",
       "https://source.unsplash.com/iecJiKe_RNg/1200x1600 1200w"
     ],
-    sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 3, height: 4, link: '/en/artworks/performance/', alt: 'river', title: 'The river' }
+    sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 3, height: 4, link: '/en/services/performance/', alt: 'river', title: 'The river' }
     - { src: 'https://source.unsplash.com/epcsn8Ed8kY/600x799',
     srcSet: [
       "https://source.unsplash.com/epcsn8Ed8kY/375x500 375w",
@@ -52,7 +52,7 @@ masonry:
       "https://source.unsplash.com/epcsn8Ed8kY/768x1024 768w",
       "https://source.unsplash.com/epcsn8Ed8kY/1200x1600 1200w"
     ],
-    sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 3, height: 4, link: '/en/artworks/interactivity/', alt: 'leaves', title: 'The leaves' }
+    sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 3, height: 4, link: '/en/services/interactivity/', alt: 'leaves', title: 'The leaves' }
     - { src: 'https://source.unsplash.com/NQSWvyVRIJk/800x599',
     srcSet: [
       "https://source.unsplash.com/NQSWvyVRIJk/500x375 500w",
@@ -60,7 +60,7 @@ masonry:
       "https://source.unsplash.com/NQSWvyVRIJk/1024x768 1024w",
       "https://source.unsplash.com/NQSWvyVRIJk/1600x1200 1600w"
     ],
-    sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 4, height: 3, link: '/en/artworks/', alt: 'trees', title: 'The trees' }
+    sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 4, height: 3, link: '/en/services/', alt: 'trees', title: 'The trees' }
     - { src: 'https://source.unsplash.com/zh7GEuORbUw/600x799',
     srcSet: [
       "https://source.unsplash.com/zh7GEuORbUw/375x500 375w",
@@ -68,7 +68,7 @@ masonry:
       "https://source.unsplash.com/zh7GEuORbUw/768x1024 768w",
       "https://source.unsplash.com/zh7GEuORbUw/1200x1600 1200w"
     ],
-    sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 3, height: 4, link: '/en/artworks/', alt: 'firs', title: 'The firs' }
+    sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 3, height: 4, link: '/en/services/', alt: 'firs', title: 'The firs' }
     - { src: 'https://source.unsplash.com/PpOHJezOalU/800x599',
     srcSet: [
       "https://source.unsplash.com/PpOHJezOalU/500x375 500w",
@@ -76,7 +76,7 @@ masonry:
       "https://source.unsplash.com/PpOHJezOalU/1024x768 1024w",
       "https://source.unsplash.com/PpOHJezOalU/1600x1200 1600w"
     ],
-    sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 4, height: 3, link: '/en/artworks/', alt: 'acorn', title: 'The acorn' }
+    sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 4, height: 3, link: '/en/services/', alt: 'acorn', title: 'The acorn' }
     - { src: 'https://source.unsplash.com/I1ASdgphUH4/800x599',
     srcSet: [
       "https://source.unsplash.com/I1ASdgphUH4/500x375 500w",
@@ -84,7 +84,7 @@ masonry:
       "https://source.unsplash.com/I1ASdgphUH4/1024x768 1024w",
       "https://source.unsplash.com/I1ASdgphUH4/1600x1200 1600w"
     ],
-    sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 4, height: 3, link: '/en/artworks/', alt: 'road', title: 'The road' }
+    sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 4, height: 3, link: '/en/services/', alt: 'road', title: 'The road' }
 ---
 ## My artistic Portfolio
 

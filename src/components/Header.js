@@ -51,7 +51,7 @@ const Header = class extends React.Component {
   if (isMobile) {
 
    let navMenu = document.getElementById("navMenu");
-   navMenu.style.backgroundColor = "#abd6d1"
+   navMenu.style.backgroundColor = "white"
 
  }
 }
@@ -89,7 +89,7 @@ const Header = class extends React.Component {
           <Link className="navbar-item" to={"/" + props.langKey + "/" + menuTree.about[sel] +"/"}>
             <FormattedMessage id="about" />
           </Link>
-          <Link className="navbar-item" to={"/" + props.langKey + "/" + menuTree.artworks[sel] +"/"}>
+          <Link className="navbar-item" to={"/" + props.langKey + "/" + menuTree.services[sel] +"/"}>
             <FormattedMessage id="services" />
           </Link>
           <Link className="navbar-item" to={"/" + props.langKey + "/" + menuTree.blog[sel] +"/"}>
