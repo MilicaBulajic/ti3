@@ -90,25 +90,6 @@ const ContactPageTemplate = ({
         </div>
         <div className="field">
           <div className="control">
-          <label className="radio menu-names">
-            <input
-              type="radio"
-              name="gender-male"
-              value="male"
-              onChange={handleChange}
-              defaultChecked
-            />
-            <span><FormattedMessage id="contact.gender.male"/></span>
-          </label>
-          <label className="radio">
-            <input
-              type="radio"
-              name="gender-female"
-              value="female"
-              onChange={handleChange}
-            />
-            <span><FormattedMessage id="contact.gender.female"/></span>
-          </label>
         </div>
         </div>
         <div className="field">
@@ -124,7 +105,7 @@ const ContactPageTemplate = ({
         </div>
         <div className="field">
         <div className="control">
-          <button className="button is-link" type="submit"><FormattedMessage id="contact.send"/></button>
+          <button className="button" type="submit"><FormattedMessage id="contact.send"/></button>
         </div>
         </div>
       </form>
@@ -215,7 +196,6 @@ class ContactPage extends React.Component {
             </div>
           )}
         </Format>
-      <FollowUs link={linkinsta} instagram={instagram}/>
     </Layout>
     )
   }

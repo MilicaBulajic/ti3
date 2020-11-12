@@ -55,7 +55,7 @@ const HomePageTemplate = ({
   
       }}
     >
-        <h3
+        <h2
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen animated bounceInRight"
           style={{
             backgroundColor: 'rgba(255,255,255,0.45)',
@@ -63,10 +63,13 @@ const HomePageTemplate = ({
             lineHeight: '1',
             padding: '0.15em',
             textAlign: 'right',
+            fontFamily: 'Caveat,cursive',
+            fontSize: '2em',
+            color: '#c18a8b'
           }}
         >
           {heading}
-        </h3>
+        </h2>
 
         <h1
         className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen is-centered animated bounceInLeft"
@@ -75,7 +78,9 @@ const HomePageTemplate = ({
           color: '#4a4a4a',
           lineHeight: '1',
           padding: '0.15em',
-          paddingLeft: '0'
+          paddingLeft: '0',
+          fontFamily: 'Caveat,cursive',
+          fontSize: '2em'
         }}
       >
         {title}

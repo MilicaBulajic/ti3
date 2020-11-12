@@ -8,6 +8,7 @@ import Content, { HTMLContent } from "../components/Content"
 import Slider from '../components/Slider'
 import Testimonials from '../components/Testimonials'
 import Features from '../components/Features'
+import services from "../../public/img/services.jpg"
 
 const ArtworkTemplate = ({
   title,
@@ -25,20 +26,29 @@ const ArtworkTemplate = ({
   const PageContent = contentComponent || Content
   return (
       <div className="container content">
-       <h1 className="title animated bounceInLeft"></h1>
-        <div className="hero">
-            <div className="section">
-              <h2 className="has-text-weight-semibold subtitle">
-              {heading}
-              </h2>
-              <div className="container content">
-                {description}
-               </div>
-             </div>
+         <div
+    className="full-width-image-container margin-top-0"
+    style={{
+      backgroundImage: `url(${services})`,
+      backgroundPosition: 'right'
+    }}
+  >
+                    <h1
+                  className="has-text-weight-bold is-size-1"
+                  style={{
+                    backgroundColor: 'rgba(255,255,255,0.45)',
+                    fontFamily: 'Caveat,cursive',
+                    color: '#4a4a4a',
+                    padding: '1rem',
+                  }}
+                >
+                  {heading}
+                </h1>
+    </div>
+          
              <Features gridItems={intro.blurbs} />
           </div>
    
-      </div>
     )
 }
 

@@ -39,7 +39,7 @@ class CardSlide extends React.Component {
     const imageInfo = props.imageInfo;
     const name = props.imageInfo.name;
     const description = props.imageInfo.description;
-    const website = props.imageInfo.website;
+    const email = props.imageInfo.email;
 
     return (
     <div className="section card-slide">
@@ -59,7 +59,7 @@ class CardSlide extends React.Component {
                   <p className="title is-6">{description}</p>
                 </ReactWOW>
                 <br/>
-                <a href={"https://" + website}><i className="is-family-code">{website}</i></a>
+                <a href ="mailto: fengshui.home.89@gmail.com">{email}</a>
               </div>
             </div>
           </div>

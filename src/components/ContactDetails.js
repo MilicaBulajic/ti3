@@ -3,6 +3,8 @@ import { FaMapMarkerAlt, FaPhone, FaRegEnvelope } from 'react-icons/fa'
 import PropTypes from 'prop-types'
 import CardSlide from '../components/CardSlide'
 
+
+
 const ContactDetails = ({ infos, address, image, phone, email }) =>(
 
       <div className="section box">
@@ -20,34 +22,8 @@ const ContactDetails = ({ infos, address, image, phone, email }) =>(
                 email={image.email}/>
                 </div>
                 <div className="column is-vertical-center">
-                  {address && (
-                  <div className="content">
-              <a
-                className="Contact--Details--Item"
-                href={`https://www.google.com.au/maps/search/${encodeURI(
-                  address
-                )}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaMapMarkerAlt className="menu-names"/> {address}
-              </a>
-            </div>
-            )}
-            {phone && (
-              <div className="content">
-              <a className="Contact--Details--Item" href={`tel:${phone}`}>
-                <FaPhone className="menu-names"/> {phone}
-              </a>
-              </div>
-            )}
-            {email && (
-              <div className="content">
-              <a className="Contact--Details--Item" href={`mailto:${email}`}>
-                <FaRegEnvelope className="menu-names"/> {email}
-              </a>
-              </div>
-            )}
+    
+
             </div>
           </div>
           </div>

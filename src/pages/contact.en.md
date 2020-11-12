@@ -7,10 +7,10 @@ tags:
   - web
 lang: en
 image: /img/PersimmonHD.jpg
-date: "08-03-2019"
+date: "08-11-2020"
 address: "Piazza Unità d'Italia, 34121 Trieste TS"
 phone: '+3900123456789'
-email: 'fengshui.home.89@gmail.com'
+email: fengshui.home.89@gmail.com
 linkinsta: ''
 instagram: '@fengshui.home'
 locations:
@@ -22,8 +22,8 @@ imageCardSL:
   image: /img/128x128.png
   name: Tijana Milenkovic
   description: Feng Shui Consultant and Architect
+  email: fengshui.home.89@gmail.com
 path: /en/contact
 slug: /en/contact
 ---
-
 

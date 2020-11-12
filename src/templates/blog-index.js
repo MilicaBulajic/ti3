@@ -33,6 +33,7 @@ export default class BlogIndexPage extends React.Component {
                   className="has-text-weight-bold is-size-1"
                   style={{
                     backgroundColor: 'rgba(255,255,255,0.45)',
+                    fontFamily: 'Caveat,cursive',
                     color: '#4a4a4a',
                     padding: '1rem',
                   }}

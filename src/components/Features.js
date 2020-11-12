@@ -21,7 +21,7 @@ const FeatureGrid = ({ gridItems }) => (
       
                 </div>
                   <div className="content">
-                    <p className="is-size-6-touch is-size-6-desktop is-size-7-widescreen">{item.text}</p>
+                    <p className="features">{item.text}</p>
                   </div>
               </div>
             </div>

@@ -7,24 +7,44 @@ import SEO from '../components/SEO/SEO'
 import Slider from '../components/Slider'
 import IconMenu from '../components/IconMenu'
 import Content, { HTMLContent } from "../components/Content"
+import about from "../../public/img/about.jpg"
 
 const AboutPageTemplate = ({ title, content, contentComponent, tags, langKey, array, display, firstLink, secondLink, thirdLink, fourthLink }) => {
   const PageContent = contentComponent || Content
   return (
+
       <div className="container content">
-       <h1 className="title animated">{title}</h1>
-        <section className="section">
-          <PageContent className="container content" content={content} />
-          <div class="columns">
+            <div
+    className="full-width-image-container margin-top-0"
+    style={{
+      backgroundImage: `url(${about})`,
+      backgroundPosition: 'right'
+    }}
+  >
+                    <h1
+                  className="has-text-weight-bold is-size-1"
+                  style={{
+                    backgroundColor: 'rgba(255,255,255,0.45)',
+                    fontFamily: 'Caveat,cursive',
+                    color: '#4a4a4a',
+                    padding: '1rem',
+                  }}
+                >
+                  {title}
+                </h1>
+    </div>
+ 
+          
+          <div class="columns is-mobile is-multiline is-centered">
               <div class="column">
-                <p class="bd-notification is-info">Please be aware that Full Consultation package has the most effect of Feng Shui in your home and life.</p>
+                <p class="bd-notification is-info">Full Consultation packages </p>
                 
                 <div class="columns is-mobile">
-                  <div class="column">
+                  <div class="column first">
                     <h4 class="bd-notification is-info">Full Home Consultation Package</h4>
                     <p>includes: Directions and Bagua areas, Flying Star worksheet, intentional Bagua Map, Remedies Report, Personal trigram</p>
                   </div>
-                  <div class="column">
+                  <div class="column second">
                     <h4 class="bd-notification is-info">Full Home Consultation Package + Mood Board/ design suggestions</h4>
                     <p>includes: Directions and Bagua areas, Flying Star worksheet, intentional Bagua Map, Remedies Report, Personal trigram and a mood board with suggestions of how to create modern home design with Feng Shui which you can relate to the given remedies</p>
                   </div>
@@ -33,15 +53,15 @@ const AboutPageTemplate = ({ title, content, contentComponent, tags, langKey, ar
               <div class="column">
                 <p class="bd-notification is-danger">Or you can choose other individual services as follows</p>
                 <div class="columns is-mobile">
-                  <div class="column is-half">
+                  <div class="column is-half third">
                     <h4 class="bd-notification is-danger">Directions and Bagua areas and the Intentional Bagua map</h4>
                     <p>with the different elements to be used in specific areas marked on the plan of your home.</p>
                   </div>
-                  <div class="column">
+                  <div class="column fourth">
                     <h4 class="bd-notification is-danger">Flying star worksheet + report breakdown for remedies</h4>
                      <p>with the different elements to be used in specific areas marked on the plan of your home.</p>
                   </div>
-                  <div class="column">
+                  <div class="column five">
                     <h4 class="bd-notification is-danger">Personal Trigram</h4>
                   </div>
                 </div>
@@ -50,7 +70,7 @@ const AboutPageTemplate = ({ title, content, contentComponent, tags, langKey, ar
 
           <TagList tags={tags} langKey={langKey}/>
           <Slider array={array} display={display}/>
-        </section>
+     
       </div>
 )
 }
