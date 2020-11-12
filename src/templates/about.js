@@ -34,39 +34,15 @@ const AboutPageTemplate = ({ title, content, contentComponent, tags, langKey, ar
                 </h1>
     </div>
  
-          
-          <div class="columns is-mobile is-multiline is-centered">
-              <div class="column">
-                <p class="bd-notification is-info">Full Consultation packages </p>
-                
-                <div class="columns is-mobile">
-                  <div class="column first">
-                    <h4 class="bd-notification is-info">Full Home Consultation Package</h4>
-                    <p>includes: Directions and Bagua areas, Flying Star worksheet, intentional Bagua Map, Remedies Report, Personal trigram</p>
-                  </div>
-                  <div class="column second">
-                    <h4 class="bd-notification is-info">Full Home Consultation Package + Mood Board/ design suggestions</h4>
-                    <p>includes: Directions and Bagua areas, Flying Star worksheet, intentional Bagua Map, Remedies Report, Personal trigram and a mood board with suggestions of how to create modern home design with Feng Shui which you can relate to the given remedies</p>
-                  </div>
-                </div>
-              </div>
-              <div class="column">
-                <p class="bd-notification is-danger">Or you can choose other individual services as follows</p>
-                <div class="columns is-mobile">
-                  <div class="column is-half third">
-                    <h4 class="bd-notification is-danger">Directions and Bagua areas and the Intentional Bagua map</h4>
-                    <p>with the different elements to be used in specific areas marked on the plan of your home.</p>
-                  </div>
-                  <div class="column fourth">
-                    <h4 class="bd-notification is-danger">Flying star worksheet + report breakdown for remedies</h4>
-                     <p>with the different elements to be used in specific areas marked on the plan of your home.</p>
-                  </div>
-                  <div class="column five">
-                    <h4 class="bd-notification is-danger">Personal Trigram</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
+
+            <div className="container section">
+       <IconMenu
+       firstLink={firstLink}
+       secondLink={secondLink}
+       thirdLink={thirdLink}
+       fourthLink={fourthLink}
+       />
+       </div>
 
           <TagList tags={tags} langKey={langKey}/>
           <Slider array={array} display={display}/>

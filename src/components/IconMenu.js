@@ -8,16 +8,6 @@ const IconMenu = class extends React.Component {
   componentDidMount() {
     // Get all "icon" elements
    const sectionMenu = Array.prototype.slice.call(document.querySelectorAll('.icon'), 0);
-    // Check if there are any icon links
-   if (sectionMenu.length > 0) {
-
-     // Add a mouseenter event on each of them
-     sectionMenu.forEach( el => {
-       el.addEventListener('mouseenter', () => {
-         el.classList.toggle('shake');
-       }, true);
-     });
-   }
 
   }
   render() {
@@ -26,51 +16,33 @@ const IconMenu = class extends React.Component {
     const thirdLink = this.props.thirdLink;
     const fourthLink = this.props.fourthLink;
   return(
-    <div className="section box has-background-info">
-      <div className="section">
-        <h3 className="title has-text-centered has-text-light">
-          <FormattedMessage id="menu-icon-message"/>
-        </h3>
-      </div>
+    <div className="section">
       <div className="box">
       <div className="content">
         <h4 className="subtitle has-text-centered">
-          <FormattedMessage id="menu-icon-subtitle"/>
+        Full Consultation packages
         </h4>
       </div>
     <div className="columns is-2 is-mobile is-multiline is-centered">
-      <a className="column is-narrow has-text-centered" href={firstLink}>
-        <span className="animated" style={{ display: 'inline-block', position: 'relative' }}>
-          <FaCircle textAnchor="middle" alignmentBaseline="middle" style={{ fontSize: '3em'}}/>
-          <FaPaintBrush
-           textAnchor="middle"
-           alignmentBaseline="middle"
-           style={{ fontSize: '2.0em', position: 'absolute', right: '.25em', top: '.25em', color: 'white' }}
-          />
-          <p>includes: Directions and Bagua areas, Flying Star worksheet, intentional Bagua Map, Remedies Report, Personal trigram) </p>
-        </span>
-      <div className="section">
+      <a className="column" href={firstLink}>
+      <div className="section packages">
         <h4 className="title has-text-centered">
-          <FormattedMessage id="menu-icon-painting"/>
+        Full Home Consultation Package
         </h4>
+        <p>includes: Directions and Bagua areas, Flying Star worksheet, intentional Bagua Map, Remedies Report, Personal trigram</p>
       </div>
       </a>
-      <a className="column is-narrow has-text-centered" href={secondLink}>
-      <span className="animated" style={{ display: 'inline-block', position: 'relative' }}>
-        <FaCircle textAnchor="middle" alignmentBaseline="middle" style={{ fontSize: '3em'}}/>
-        <FaGavel
-         textAnchor="middle"
-         alignmentBaseline="middle"
-         style={{ fontSize: '2.0em', position: 'absolute', right: '.25em', top: '.25em', color: 'white' }}
-        />
-      </span>
-        <div className="section">
+      <a className="column" href={secondLink}>
+
+  
+    
+        <div className="section packages">
           <h4 className="title has-text-centered">
-            <FormattedMessage id="menu-icon-sculpture"/>
+          Full Home Consultation Package + Mood Board/ design suggestions
           </h4>
+          <p>includes: Directions and Bagua areas, Flying Star worksheet, intentional Bagua Map, Remedies Report, Personal trigram and a mood board with suggestions of how to create modern home design with Feng Shui which you can relate to the given remedies</p>
         </div>
       </a>
-
       </div>
      </div>
      </div>
