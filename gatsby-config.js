@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 const languages = require('./src/data/languages');
 
 module.exports = {
@@ -141,5 +145,11 @@ module.exports = {
       }
     },
     `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-source-instagram-all`,
+      options: {
+        access_token: process.env.INSTAGRAM_TOKEN 
+      }
+    },
   ],
 }

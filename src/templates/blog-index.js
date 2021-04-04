@@ -6,6 +6,9 @@ import SEO from '../components/SEO/SEO'
 import { FormattedMessage } from 'react-intl';
 import { graphql } from 'gatsby'
 import blog from "../../public/img/blog.jpg"
+import Instagram from '../components/Instagram.js'
+import FollowUs from '../components/FollowUs.js'
+
 
 export default class BlogIndexPage extends React.Component {
 
@@ -45,6 +48,10 @@ export default class BlogIndexPage extends React.Component {
              <BlogRoll />
             </div>
         </section>
+        <section className="content">
+        <FollowUs />
+        <Instagram />  
+      </section>          
       </Layout>
     )
   }
