@@ -59,7 +59,7 @@ class CardSlide extends React.Component {
                   <p className="title is-6">{description}</p>
                 </ReactWOW>
                 <br/>
-                <a href ="mailto: fengshui.home.89@gmail.com">{email}</a>
+                <a href ="mailto: milica.bulajic@gmail.com">{email}</a>
               </div>
             </div>
           </div>

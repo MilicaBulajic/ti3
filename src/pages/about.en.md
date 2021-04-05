@@ -1,6 +1,6 @@
 ---
 id: '03'
-title: "Choose your own package"
+title: ""
 description: "Something about me"
 templateKey: about
 lang: en
