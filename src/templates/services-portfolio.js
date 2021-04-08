@@ -13,6 +13,7 @@ const ArtworkPortfolioTemplate = ({
   intro,
   heading,
   masonry,
+  photos,
   tags,
   langKey
 }) => {

@@ -1,6 +1,6 @@
 ---
 id: '05'
-title: "Services"
+title: "Feng Shui & Modern design"
 image: /img/Persimmon.jpg
 heading: What our Feng Shui consultation consists of
 headingDesc: >

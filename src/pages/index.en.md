@@ -39,15 +39,21 @@ path: /en/
 slug: /en/
 ---
 
-# Feng Shui In Your Home
+# 
 <br>
 
-The most important question you can ask yourself is who am I and why am I here? What is the true purpose of life? Do I live my true calling or is my life a routine? Do I live with ease and go with a flow? Do I want better relationships? Better health? Carrier luck or more financial flow?
-If you feel that you don’t have control over your life, if you stopped on any of those questions, maybe is now the time to change? To start loving life and live your dreams? To live in prosperity and abundance?
+WE HELP YOU LIVE A WONDERFUL LIFE WITH GOOD FENG SHUI. <strong>WE CREATE GOOD FENG SHUI WITH MODERN DESIGN.</strong>
 
-Being here it means that you are already halfway to live your balanced and abundant life!
-Feng Shui is an ancient Chinese art (based on directions, formulas, time, space) which we use in our modern time and modern home design to help us create the life we desire. When we heal the energy in us and around us, we transform our life.
+<strong>THE QUALITY OF YOUR LIFE IS SUPPORTED BY THE QUALITY OF THE ENERGY IN YOUR HOUSE. WHEN YOU CHANGE YOUR ENVIRONMENT, YOU CHANGE YOUR LIFE.</strong> We often look for the change outside of us, when really what we need to do first is inner change, inside us and inside our space, to have happiness, luck and prosperity in all areas of life.
 
-We enhance the good energy of the space which will positively influence your life and bring good fortune. We also heal/balance the negative energy of the space which blocks us and create obstacles in our life. Each area of the house is connected with one of the areas of your life. The balance of the energy in your house will eventually reflect in your life.
+Feng Shui is an ancient Chinese art which we use in our modern time and modern home design to help us create the life we desire. <strong>WHEN WE HEAL THE ENERGY IN US AND AROUND US, WE TRANSFORM OUR LIFE. </strong>(We enhance the good energy of the space which will positively influence your life and bring good fortune. We also heal/balance the negative energy of the space which blocks you and create obstacles in your life).
 
-When you intentionally align your living place with a good energy flow, it will support you and help you improve your life. You can know once again, that all things are possible! We are happy to help you achieve all this!
+<strong>THE BALANCE OF THE ENERGY IN YOUR HOUSE WILL EVENTUALLY REFLECT IN YOUR LIFE. </strong>
+
+If we can first heal the energy in the house, why wait for it to manifest in your life or your body?
+Feng Shui helps you easily remove unwanted things from your life. It supports you to live in health, happiness, joy, abundance. It helps you MANIFEST YOUR DREAMS, REMOVE OBSTACLES AND OPEN THE DOORS TO NEW POSSIBILITIES. 
+
+<strong>FENG SHUI BRINGS YOU GREAT HAPPINESS AND SUCCESS IN EVERYTHING YOU DO!</strong>
+
+Love yourself enough to live the life of your dreams. You deserve it!WITH THE GOOD ENERGY FLOW OF YOUR HOME AND DESIRE IN YOUR HEART, YOU CAN ACHIEVE ANYTHING.We are happy to help you!
+READY FOR THE CHANGE?                       YES                     *SERVICES

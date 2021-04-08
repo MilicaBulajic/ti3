@@ -3,9 +3,13 @@ import * as PropTypes from "prop-types"
 import { graphql } from 'gatsby'
 import Layout from "../components/Layout"
 import SEO from '../components/SEO/SEO'
+import Slider from "../components/Slider"
 import Content, { HTMLContent } from "../components/Content"
 import iconLinks from '../data/artworksMenu'
 import select from '../components/utils'
+import img1 from "../img/1.jpg"
+import img2 from "../img/2.jpg"
+import img3 from "../img/3.jpg"
 
 
 
@@ -21,6 +25,7 @@ const HomePageTemplate = ({
   title,
   content,
   contentComponent,
+  masonry,
   firstLink,
   secondLink,
   thirdLink,
@@ -91,6 +96,13 @@ const HomePageTemplate = ({
 
         <section className="section">
           <PageContent className="container content" content={content} />
+        </section>
+        <section>
+        <div className="banner-container">
+          <img src={img1} />
+          <img src={img2} />
+          <img src={img3} />
+        </div>
         </section>
       </div>
 )
