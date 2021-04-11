@@ -67,7 +67,7 @@ const HomePageTemplate = ({
             lineHeight: '1',
             padding: '0.15em',
             textAlign: 'right',
-            fontFamily: 'Caveat,cursive',
+            fontFamily: 'Calibri',
             fontSize: '50px',
             color: '#c18a8b'
           }}

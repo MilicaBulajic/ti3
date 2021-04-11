@@ -1,6 +1,6 @@
 ---
 id: '01'
-title: "Feng Shui & Modern design"
+title: "FENG SHUI & MODERN DESIGN"
 description: "some content"
 templateKey: home
 tags:
@@ -41,6 +41,8 @@ slug: /en/
 
 # 
 <br>
+
+We are Adrew and Tijana, Certified Feng.....
 
 WE HELP YOU LIVE A WONDERFUL LIFE WITH GOOD FENG SHUI. <strong>WE CREATE GOOD FENG SHUI WITH MODERN DESIGN.</strong>
 
