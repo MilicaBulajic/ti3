@@ -6,9 +6,9 @@ import Layout from "../components/Layout"
 import SEO from '../components/SEO/SEO'
 import Content, { HTMLContent } from "../components/Content"
 import Slider from '../components/Slider'
-import Testimonials from '../components/Testimonials'
 import Features from '../components/Features'
 import services from "../../public/img/services.jpg"
+import Testimonials from '../components/Testimonials'
 
 const ArtworkTemplate = ({
   title,
@@ -36,7 +36,6 @@ const ArtworkTemplate = ({
                     <h1
                   className="has-text-weight-bold is-size-1"
                   style={{
-                    backgroundColor: 'rgba(255,255,255,0.45)',
                     fontFamily: 'Caveat,cursive',
                     color: '#4a4a4a',
                     padding: '1rem',
@@ -45,8 +44,12 @@ const ArtworkTemplate = ({
                   {heading}
                 </h1>
     </div>
+    <section className="section">
+          <PageContent className="container content" content={content} />
+        </section>
           
              <Features gridItems={intro.blurbs} />
+             <Testimonials array={array} display={display} testimonials={testimonials} />
           </div>
    
     )

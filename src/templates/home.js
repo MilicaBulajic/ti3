@@ -3,6 +3,7 @@ import * as PropTypes from "prop-types"
 import { graphql } from 'gatsby'
 import Layout from "../components/Layout"
 import SEO from '../components/SEO/SEO'
+import Testimonials from '../components/Testimonials'
 import Slider from "../components/Slider"
 import Content, { HTMLContent } from "../components/Content"
 import iconLinks from '../data/artworksMenu'
@@ -44,7 +45,6 @@ const HomePageTemplate = ({
         !!image.childImageSharp ? image.childImageSharp.fluid.src : image
       })`,
       backgroundPosition: `top left`,
-      backgroundAttachment: `fixed`,
       height: `550px`,
     }}
   >
@@ -52,24 +52,23 @@ const HomePageTemplate = ({
       style={{
         display: 'flex',
         height: '150px',
-        lineHeight: '1',
+        lineHeight: '0.5',
         justifyContent: 'space-around',
-        alignItems: 'left',
+        alignItems: 'right',
         flexDirection: 'column',
-        paddingTop: '16rem',
-  
+        paddingTop: '10rem',
+        fontSize: '30px',
+        paddingLeft: '30rem'
       }}
     >
         <h2
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen animated bounceInRight"
+          className="has-text-weight-bold is-size-5-mobile animated bounceInRight"
           style={{
-            backgroundColor: 'rgba(255,255,255,0.45)',
-            color: '#4a4a4a',
             lineHeight: '1',
             padding: '0.15em',
             textAlign: 'right',
             fontFamily: 'Caveat,cursive',
-            fontSize: '2em',
+            fontSize: '50px',
             color: '#c18a8b'
           }}
         >
@@ -77,15 +76,14 @@ const HomePageTemplate = ({
         </h2>
 
         <h1
-        className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen is-centered animated bounceInLeft"
+        className="has-text-weight-bold is-centered animated bounceInLeft"
         style={{
-          backgroundColor: 'rgba(255,255,255,0.45)',
+          fontSize: '60px',
           color: '#4a4a4a',
           lineHeight: '1',
           padding: '0.15em',
           paddingLeft: '0',
           fontFamily: 'Caveat,cursive',
-          fontSize: '2em'
         }}
       >
         {title}

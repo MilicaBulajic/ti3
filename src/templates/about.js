@@ -8,6 +8,7 @@ import Slider from '../components/Slider'
 import IconMenu from '../components/IconMenu'
 import Content, { HTMLContent } from "../components/Content"
 import about from "../../public/img/about.jpg"
+import { withPrefix } from 'gatsby'
 
 const AboutPageTemplate = ({ title, content, contentComponent, tags, langKey, array, display, firstLink, secondLink, thirdLink, fourthLink }) => {
   const PageContent = contentComponent || Content
@@ -15,16 +16,15 @@ const AboutPageTemplate = ({ title, content, contentComponent, tags, langKey, ar
 
       <div className="container content">
             <div
-    className="full-width-image-container margin-top-0"
-    style={{
-      backgroundImage: `url(${about})`,
-      backgroundPosition: 'right'
-    }}
-  >
+                  className="full-width-image-container margin-top-0"
+                  style={{
+                    backgroundImage: `url(${about})`,
+                    backgroundPosition: 'right'
+                  }}
+                >
                     <h1
                   className="has-text-weight-bold is-size-1"
                   style={{
-                    backgroundColor: 'rgba(255,255,255,0.45)',
                     fontFamily: 'Caveat,cursive',
                     color: '#4a4a4a',
                     padding: '1rem',
@@ -32,22 +32,11 @@ const AboutPageTemplate = ({ title, content, contentComponent, tags, langKey, ar
                 >
                   {title}
                 </h1>
-    </div>
- 
-
-            <div className="container section">
-       <IconMenu
-       firstLink={firstLink}
-       secondLink={secondLink}
-       thirdLink={thirdLink}
-       fourthLink={fourthLink}
-       />
-       </div>
-
-          <TagList tags={tags} langKey={langKey}/>
-          <Slider array={array} display={display}/>
-     
-      </div>
+                </div>
+                <section className="section">
+              <PageContent className="container content" content={content} />
+            </section>
+          </div>   
 )
 }
 
@@ -107,6 +96,13 @@ export const pageQuery = graphql`
         }
       }
     }
+      allFile(filter: { extension: { eq: "pdf" } }) {
+        edges {
+          node {
+            publicURL
+          }
+        }
+      }
     allArticlesJson(filter:{title:{eq:"home"}}){
    edges{
      node{
