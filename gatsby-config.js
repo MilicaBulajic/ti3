@@ -1,8 +1,8 @@
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
-})
+});
 
-const languages = require('./src/data/languages');
+const languages = require("./src/data/languages");
 
 module.exports = {
   siteMetadata: {
@@ -12,89 +12,90 @@ module.exports = {
   without their own descriptions.
 `,
     siteUrl: "https://fengshui.netlify.app/",
-    image: 'img.jpg',
+    image: "img.jpg",
     author: {
-      name: 'Your Name',
+      name: "Your Name",
       minibio: `
         This bio is shown at the bottom of each blog post. It supports
         <strong>custom HTML</strong> if you’re into that sort of thing.
       `,
     },
     organization: {
-      name: 'Example, Inc.',
-      url: 'https://example.com',
-      logo: 'img/logo.svg',
+      name: "Example, Inc.",
+      url: "https://example.com",
+      logo: "img/logo.svg",
     },
     social: {
-      twitter: '@twitter',
-      fbAppID: '',
+      twitter: "@twitter",
+      fbAppID: "",
     },
     languages,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    'gatsby-plugin-sass',
+    "gatsby-plugin-sass",
     {
-      resolve: 'gatsby-plugin-i18n',
+      resolve: "gatsby-plugin-i18n",
       options: {
-        langKeyForNull: 'any',
+        langKeyForNull: "any",
         langKeyDefault: languages.defaultLangKey,
         useLangKeyLayout: false,
-      }
+      },
     },
     {
-    resolve: 'gatsby-plugin-i18n-tags',
-    options: { // Default options
-      tagPage: 'src/templates/tags.js',
-      tagsUrl: '/tags/',
-      langKeyForNull: 'any',
+      resolve: "gatsby-plugin-i18n-tags",
+      options: {
+        // Default options
+        tagPage: "src/templates/tags.js",
+        tagsUrl: "/tags/",
+        langKeyForNull: "any",
+      },
     },
-  },
     `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-      path: `${__dirname}/src/data/articles`,
+        path: `${__dirname}/src/data/articles`,
       },
     },
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/static/img`,
-        name: 'uploads',
+        name: "uploads",
       },
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/src/pages`,
-        name: 'pages',
+        name: "pages",
       },
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/src/img`,
-        name: 'images',
+        name: "images",
       },
     },
     "gatsby-transformer-javascript-frontmatter",
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-relative-images',
+            resolve: "gatsby-remark-relative-images",
             options: {
-              name: 'uploads',
+              name: "uploads",
             },
           },
           {
-            resolve: 'gatsby-remark-images',
-             options: {
+            resolve: "gatsby-remark-images",
+            options: {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
@@ -102,9 +103,9 @@ module.exports = {
             },
           },
           {
-            resolve: 'gatsby-remark-copy-linked-files',
+            resolve: "gatsby-remark-copy-linked-files",
             options: {
-              destinationDir: 'static',
+              destinationDir: "static",
             },
           },
         ],
@@ -113,10 +114,10 @@ module.exports = {
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-netlify`,
     {
-      resolve:'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
+      resolve: "gatsby-plugin-purgecss", // purges all unused/unreferenced css rules
       options: {
-        develop: true,            // Activates purging in npm run develop
-        purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
+        develop: true, // Activates purging in npm run develop
+        purgeOnly: ["/all.sass"], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
     {
@@ -125,7 +126,7 @@ module.exports = {
         output: `/sitemap.xml`,
       },
     },
-    'gatsby-plugin-robots-txt',
+    "gatsby-plugin-robots-txt",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -139,17 +140,23 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-react-leaflet',
+      resolve: "gatsby-plugin-react-leaflet",
       options: {
-        linkStyles: true // (default: true) Enable/disable loading stylesheets via CDN
-      }
+        linkStyles: true, // (default: true) Enable/disable loading stylesheets via CDN
+      },
     },
     `gatsby-plugin-offline`,
     {
       resolve: `gatsby-source-instagram-all`,
       options: {
-        access_token: process.env.INSTAGRAM_TOKEN 
-      }
+        access_token: process.env.INSTAGRAM_TOKEN,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-mailchimp",
+      options: {
+        endpoint: process.env.MAILCHIMP_ENDPOINT,
+      },
     },
   ],
-}
+};

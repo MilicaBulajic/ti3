@@ -10,6 +10,7 @@ import Content, { HTMLContent } from "../components/Content";
 import iconLinks from "../data/artworksMenu";
 import select from "../components/utils";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import SubscribeForm from "../components/SubscribeForm";
 import img1 from "../img/1.jpg";
 import img2 from "../img/2.jpg";
 import img3 from "../img/3.jpg";
@@ -63,8 +64,8 @@ const HomePageTemplate = ({
       <section className="section full-width-text">
         <div className="column is-10 is-offset-1">
           <h1 className="title">{mainpitch.title}</h1>
-
           <h3 className="subtitle">{mainpitch.description}</h3>
+          <SubscribeForm />
         </div>
       </section>
       <section>
