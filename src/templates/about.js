@@ -7,21 +7,23 @@ import SEO from '../components/SEO/SEO'
 import Slider from '../components/Slider'
 import IconMenu from '../components/IconMenu'
 import Content, { HTMLContent } from "../components/Content"
-import about from "../../public/img/about.jpg"
 import { withPrefix } from 'gatsby'
 
-const AboutPageTemplate = ({ title, content, contentComponent, tags, langKey, array, display, firstLink, secondLink, thirdLink, fourthLink }) => {
+const AboutPageTemplate = ({ title, content, contentComponent, image, langKey, array, display, firstLink, secondLink, thirdLink, fourthLink }) => {
   const PageContent = contentComponent || Content
   return (
 
-      <div className="container content">
-            <div
-                  className="full-width-image-container margin-top-0"
-                  style={{
-                    backgroundImage: `url(${about})`,
-                    backgroundPosition: 'right'
-                  }}
-                >
+      <div>
+                 <div
+        className="full-width-image margin-top-0"
+        style={{
+          backgroundImage: `url(${
+            !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+          })`,
+          backgroundPosition: `top center`,
+          height: `550px`,
+        }}
+      >
                     <h1
                   className="has-text-weight-bold is-size-1"
                   style={{
@@ -68,6 +70,7 @@ class AboutPage extends React.Component {
         />
         <div>
             <AboutPageTemplate
+            image={dataMarkdown.frontmatter.image}
             contentComponent={HTMLContent}
             title={dataMarkdown.frontmatter.title}
             content={dataMarkdown.html}

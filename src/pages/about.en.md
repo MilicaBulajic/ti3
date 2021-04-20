@@ -4,7 +4,7 @@ title: ""
 description: "Something about me"
 templateKey: about
 lang: en
-image: /img/PersimmonHD.jpg
+image: /img/about.jpg
 date: "05-03-2019"
 path: /en/about/
 slug: /en/about/

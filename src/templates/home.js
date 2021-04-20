@@ -17,7 +17,6 @@ import { navigate } from "gatsby";
 import img1 from "../img/1.jpg";
 import img2 from "../img/2.jpg";
 import img3 from "../img/3.jpg";
-import text from "../img/title.png";
 import logo from "../img/logo.png";
 import { FaAudioDescription } from "react-icons/fa";
 
@@ -57,7 +56,7 @@ const HomePageTemplate = ({
             !!image.childImageSharp ? image.childImageSharp.fluid.src : image
           })`,
           backgroundPosition: `top left`,
-          height: `550px`,
+          height: `520px`,
         }}
       >
         <div className="cover-text animated bounceInRight">

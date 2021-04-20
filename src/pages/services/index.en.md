@@ -1,7 +1,7 @@
 ---
 id: '05'
 title: "Feng Shui & Modern design"
-image: /img/Persimmon.jpg
+image: /img/services.jpg
 heading: DESIGN YOUR HOME = DESIGN YOUR LIFE
 headingDesc: >
 

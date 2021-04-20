@@ -7,7 +7,6 @@ import SEO from '../components/SEO/SEO'
 import Content, { HTMLContent } from "../components/Content"
 import Slider from '../components/Slider'
 import Features from '../components/Features'
-import services from "../../public/img/services.jpg"
 import Testimonials from '../components/Testimonials'
 
 const ArtworkTemplate = ({
@@ -21,18 +20,22 @@ const ArtworkTemplate = ({
   array,
   testimonials,
   tags,
-  langKey
+  langKey,
+  image
 }) => {
   const PageContent = contentComponent || Content
   return (
-      <div className="container content">
-         <div
-    className="full-width-image-container margin-top-0"
-    style={{
-      backgroundImage: `url(${services})`,
-      backgroundPosition: 'right'
-    }}
-  >
+      <div>
+      <div
+        className="full-width-image margin-top-0"
+        style={{
+          backgroundImage: `url(${
+            !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+          })`,
+          backgroundPosition: `top left`,
+          height: `550px`,
+        }}
+      >
                     <h1
                   className="has-text-weight-bold is-size-1"
                   style={{
@@ -71,7 +74,11 @@ ArtworkTemplate.propTypes = {
 
 class ArtworksPage extends React.Component {
 
-render() {
+  render() {
+    var dataMarkdown = [];
+    if (this.props.data !== null) {
+      dataMarkdown = this.props.data.markdownRemark
+    }
   const data = this.props.data;
   const { frontmatter } = data.markdownRemark;
   const { display } = frontmatter.slider;
@@ -90,6 +97,7 @@ render() {
         <div>
             <ArtworkTemplate
             contentComponent={HTMLContent}
+            image={dataMarkdown.frontmatter.image}
             heading={frontmatter.heading}
             title={frontmatter.title}
             content={data.markdownRemark.html}

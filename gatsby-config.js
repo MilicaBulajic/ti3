@@ -32,9 +32,9 @@ module.exports = {
     languages,
   },
   plugins: [
-    "gatsby-transformer-javascript-frontmatter",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+    "gatsby-transformer-javascript-frontmatter",
     `gatsby-plugin-react-helmet`,
     "gatsby-plugin-sass",
     {
