@@ -12,12 +12,14 @@ import select from "../components/utils";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import SubscribeForm from "../components/SubscribeForm";
 import Instagram from "../components/Instagram.js";
+import FollowUs from '../components/FollowUs'
 import { navigate } from "gatsby";
 import img1 from "../img/1.jpg";
 import img2 from "../img/2.jpg";
 import img3 from "../img/3.jpg";
 import text from "../img/title.png";
 import logo from "../img/logo.png";
+import { FaAudioDescription } from "react-icons/fa";
 
 const HomePageTemplate = ({
   imageCardSL,
@@ -26,6 +28,8 @@ const HomePageTemplate = ({
   display,
   array,
   mainpitch,
+  linkinsta,
+  instagram,
   description,
   intro,
   main,
@@ -79,7 +83,7 @@ const HomePageTemplate = ({
       <section className="section full-width-text">
         <div className="columns">
           <div className="column is-8 is-offset-1">
-            <h3 className="has-text-weight-semibold">{mainpitch.title}</h3>
+            <h2 className="has-text-weight-semibold">{mainpitch.title}</h2>
             <h4>{mainpitch.heading}</h4>
             <p>{mainpitch.description}</p>
           </div>
@@ -95,16 +99,14 @@ const HomePageTemplate = ({
           </div>
         </div>
       </section>
-      <section>
+      <section className="about">
         <div className="column is-10 is-offset-1">
           <div className="tile is-ancestor">
             <div className="tile is-vertical">
               <div className="tile">
                 <div className="tile is-parent is-vertical">
                   <article className="tile is-child">
-                    <h3 className="has-text-weight-semibold is-size-3">
-                      {main.heading}
-                    </h3>
+                    <h3>{main.heading}</h3>
                     <PageContent className="content" content={content} />
                   </article>
                 </div>
@@ -118,9 +120,26 @@ const HomePageTemplate = ({
           </div>
         </div>
       </section>
-      <div className="column is-10 is-offset-1">
-        <Testimonials testimonials={testimonials} />
-      </div>
+      <section>
+      <div className="columns">
+      <div className="column is-4">
+          <img src={img1}/>
+    </div>
+    <div className="column is-4">
+          <img src={img2}/>
+    </div>
+    <div className="column is-4">
+          <img src={img3}/>
+
+    </div>
+        </div>
+      </section>
+      <section className="wps">
+        <div className="column is-10 is-offset-1">
+          <h3>{mainpitch.subheading}</h3>
+          <Testimonials testimonials={testimonials} image={image} />
+        </div>
+      </section>
       <section>
         <Instagram />
       </section>
@@ -272,7 +291,7 @@ export const pageQuery = graphql`
             alt
             image {
               childImageSharp {
-                fluid(maxWidth: 400, quality: 90) {
+                fluid(maxWidth: 500, quality: 100) {
                   ...GatsbyImageSharpFluid
                 }
               }
@@ -282,6 +301,14 @@ export const pageQuery = graphql`
         testimonials {
           author
           quote
+          image {
+              childImageSharp {
+                fluid(maxWidth: 128, quality: 84) {
+                  ...GatsbyImageSharpFluid
+                
+              }
+            }
+          }
         }
       }
       fields {

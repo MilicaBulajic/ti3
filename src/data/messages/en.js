@@ -35,7 +35,7 @@ module.exports = {
   'blog-message': 'Last News',
   'keep-reading': 'Keep reading →',
   'find-out-more': 'Find out more...',
-  'followus': 'Follow Us: ',
+  'followus': 'Follow Us ',
   'info-sheet': 'Informative sheet',
   'info-sheet-title': 'Title: ',
   'info-sheet-year': 'Year: ',

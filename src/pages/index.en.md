@@ -1,7 +1,7 @@
 ---
 id: "01"
 title: "Feng Shui & Modern Design"
-description: "some content"
+description:
 templateKey: home
 tags:
   - web
@@ -15,7 +15,7 @@ slider:
 
 mainpitch:
   heading: We help you live a wonderful life with good Feng Shui. We create good Feng Shui with Modern Design.
-  subheading: "Interactive Art"
+  subheading: WHAT PEOPLE SAY
   title: "We are Tijana and Andrew, Certified Feng Shui Consultant and Architects"
   description: The quality of your life is supported by the quality of the energy in your house. When you change your environment, you change your life. We often look for the change outside of us, when really what we need to do first is inner change, inside us and inside our space, to have happiness, luck and prosperity in all areas of life.
   link: /sr/opere/nuovi-media/realtà-aumentata/
@@ -24,21 +24,26 @@ main:
   description: >
 
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
+    alt: Fengshui specialist
     image: /img/image1.jpg
+
 testimonials:
   - author: Milica Bulajic
     quote: >-
       I’m glad I decided to work with you. It’s really great how easy youre and manage. I never have any problem at all.
+    image: /img/128x128.png
   - author: Danica R.
     quote: >-
       Lorem ipsum, or lipsum as it is sometimes known, web designs.
+    image: /img/128x128.png
   - author: Suza
     quote: >-
       Working with Tijana and Andrew, is working with glamour, responsibility, and commitment.
+    image: /img/128x128.png
   - author: Suza
     quote: >-
       Lorem ipsum, or lipsum as it is sometimes known, web designs.
+    image: /img/128x128.png
 imageCardSL:
   alt: "image"
   image: /img/128x128.png
@@ -55,13 +60,14 @@ intro:
       text: >
 ---
 
-Feng Shui is an ancient Chinese art which we use in our modern time and modern home design to help us create the life we desire. When we heal the energy in us and around us, we transform our life.We enhance the good energy of the space which will positively influence your life and bring good fortune. We also heal/balance the negative energy of the space which blocks you and create obstacles in your life.
+Feng Shui is an ancient Chinese art which we use in our modern time and modern home design to help us create the life we desire. <b>When we heal the energy in us and around us, we transform our life.</b> We enhance the good energy of the space which will positively influence your life and bring good fortune. We also heal/balance the negative energy of the space which blocks you and create obstacles in your life.
 
-The balance of the energy in your house will eventually reflect in your life.
+<b>The balance of the energy in your house will eventually reflect in your life.</b>
+
 If we can first heal the energy in the house, why wait for it to manifest in your life or your body?
 
 Feng Shui helps you easily remove unwanted things from your life. It supports you to live in health, happiness, joy, abundance. It helps you Manifest your dreams, remove obstacles and open the doors to new possibilities.
 
-Feng shui brings you great happiness and success in everything you do!
+<b>Feng shui brings you great happiness and success in everything you do!</b>
 
 Love yourself enough to live the life of your dreams. You deserve it! With the good energy flow of your home and desire in your heart, you can achieve anything. We are happy to help you!
