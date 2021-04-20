@@ -102,33 +102,44 @@ $instagram-color: #555555
     padding-top: 0
     width: 100vw
     background-size: cover
-    background-position: bottom
+    background-position: center
     display: flex
     justify-content: center
     align-items: center
 
+.full-width-text img
+  padding-top: 10px
+  width: 70%
+
+.full-width-text h3
+  font-size: 22px
+  text-transform: uppercase
+  padding-bottom: 12px
+
+.full-width-text h4
+  font-weight: bold
+
+
 .cover-text
   border: 1px solid #c7a677
   position: absolute
-  right: 150px
-  margin-top: 80px
+  right: 140px
+  margin-top: 60px
   width: 27%
   border-radius: 10px
 
 .cover-text h2
-  padding-top: 30px
+  padding-top: 15px
   text-align: center
-  font-family: Cardo,serif
   font-size: 30px
   text-transform: none
+  color: gray
 
 .cover-text h1
     font-weight: 400
     text-align: center
     text-transform: uppercase 
-    font-family: calluna-sans
-    color: gray
-    font-size: 60px
+    font-size: 42px
     letter-spacing: 1px
     
 .cover-text h1:after
@@ -158,7 +169,28 @@ $instagram-color: #555555
   .full-width-image img
     background-position: bottom 50px right 100px
 
+.cover-text button 
+    height: 40px
+    padding: 0 15px
+    font-size: 15px
+    text-decoration: none
+    margin: 16px
+    border-radius: 4px
+    border: 1px solid #c7a677
+    font-weight: 700
+    color: #fff
+    cursor: pointer
+    -webkit-transition: .3s ease
+    -moz-transition: .3s ease
+    -o-transition: .3s ease
+    transition: .3s ease
+    letter-spacing: 1px
+    background: #c7a677
 
+
+.cover-text button:hover
+  background: #fff
+  color: #c7a677
 
 
 .margin-top-0
@@ -174,11 +206,7 @@ $instagram-color: #555555
 .menu-names
   margin-right: 5px
 
-footer > div.content.has-text-centered
-  background-color: #ffffff
-  border-top-width: 2px
-  border-top-color: #363634
-  $family-sans-serif: 'Roboto', sans-serif
+
 
 .social
   padding: 2em
@@ -236,8 +264,9 @@ footer > div.content.has-text-centered
   .card-content
     padding: 5%
 
-footer.hr 
-  border-top: 2px solid #c18a8b
+.content hr 
+  border-top: 2px solid #c7a677
+  margin-bottom: 50px
 
 .features.p
   font-size: 2rem

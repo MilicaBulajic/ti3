@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
 const Main = ({ children, className }) => (
-  <main role="main" id="content" className={className}>
+  <main role="main" id="content">
     {children}
   </main>
 );
@@ -13,7 +13,7 @@ Main.propTypes = {
 };
 
 Main.defaultProps = {
-  className: '',
+  className: "",
 };
 
 export default Main;

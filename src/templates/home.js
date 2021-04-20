@@ -11,6 +11,8 @@ import iconLinks from "../data/artworksMenu";
 import select from "../components/utils";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import SubscribeForm from "../components/SubscribeForm";
+import Instagram from "../components/Instagram.js";
+import { navigate } from "gatsby";
 import img1 from "../img/1.jpg";
 import img2 from "../img/2.jpg";
 import img3 from "../img/3.jpg";
@@ -57,23 +59,39 @@ const HomePageTemplate = ({
         <div className="cover-text animated bounceInRight">
           <h2 className="is-size-5-mobile animated bounceInRight">{heading}</h2>
           <h1 className="is-size-5-mobile animated bounceInRight">{title}</h1>
-          <img src={logo} alt="fengshui" />
+          <button
+            onClick={() => {
+              navigate("about");
+            }}
+          >
+            ABOUT
+          </button>
+          <button
+            onClick={() => {
+              navigate("services");
+            }}
+          >
+            CHOSE YOUR PACKAGE
+          </button>
         </div>
       </div>
 
       <section className="section full-width-text">
-        <div className="column is-10 is-offset-1">
-          <h1 className="title">{mainpitch.title}</h1>
-          <h3 className="subtitle">{mainpitch.description}</h3>
-          <SubscribeForm />
+        <div className="columns">
+          <div className="column is-8 is-offset-1">
+            <h3 className="has-text-weight-semibold">{mainpitch.title}</h3>
+            <h4>{mainpitch.heading}</h4>
+            <p>{mainpitch.description}</p>
+          </div>
+          <div className="column is-2">
+            <img src={logo} alt="fengshui" />
+          </div>
         </div>
       </section>
       <section>
         <div className="column is-10 is-offset-1">
           <div className="columns">
-            <div className="column is-12 has-text-centered">
-              <PageContent className="content" content={content} />
-            </div>
+            <div className="column is-12 has-text-centered"></div>
           </div>
         </div>
       </section>
@@ -87,7 +105,7 @@ const HomePageTemplate = ({
                     <h3 className="has-text-weight-semibold is-size-3">
                       {main.heading}
                     </h3>
-                    <p>{main.description}</p>
+                    <PageContent className="content" content={content} />
                   </article>
                 </div>
                 <div className="tile is-parent">
@@ -100,13 +118,11 @@ const HomePageTemplate = ({
           </div>
         </div>
       </section>
-
+      <div className="column is-10 is-offset-1">
+        <Testimonials testimonials={testimonials} />
+      </div>
       <section>
-        <div className="banner-container">
-          <img src={img1} />
-          <img src={img2} />
-          <img src={img3} />
-        </div>
+        <Instagram />
       </section>
     </div>
   );
@@ -256,7 +272,7 @@ export const pageQuery = graphql`
             alt
             image {
               childImageSharp {
-                fluid(maxWidth: 500, quality: 90) {
+                fluid(maxWidth: 400, quality: 90) {
                   ...GatsbyImageSharpFluid
                 }
               }
