@@ -4,8 +4,6 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import SEO from "../components/SEO/SEO";
 import Testimonials from "../components/Testimonials";
-import Slider from "../components/Slider";
-import Features from "../components/Features";
 import Content, { HTMLContent } from "../components/Content";
 import iconLinks from "../data/artworksMenu";
 import select from "../components/utils";
@@ -14,11 +12,8 @@ import SubscribeForm from "../components/SubscribeForm";
 import Instagram from "../components/Instagram.js";
 import FollowUs from '../components/FollowUs'
 import { navigate } from "gatsby";
-import img1 from "../img/1.jpg";
-import img2 from "../img/2.jpg";
-import img3 from "../img/3.jpg";
-import logo from "../img/logo.png";
-import { FaAudioDescription } from "react-icons/fa";
+
+
 
 const HomePageTemplate = ({
   imageCardSL,
@@ -87,7 +82,7 @@ const HomePageTemplate = ({
             <p>{mainpitch.description}</p>
           </div>
           <div className="column is-2">
-            <img src={logo} alt="fengshui" />
+            <img src={image} alt="fengshui" />
           </div>
         </div>
       </section>
@@ -119,20 +114,7 @@ const HomePageTemplate = ({
           </div>
         </div>
       </section>
-      <section>
-      <div className="columns">
-      <div className="column is-4">
-          <img src={img1}/>
-    </div>
-    <div className="column is-4">
-          <img src={img2}/>
-    </div>
-    <div className="column is-4">
-          <img src={img3}/>
 
-    </div>
-        </div>
-      </section>
       <section className="wps">
         <div className="column is-10 is-offset-1">
           <h3>{mainpitch.subheading}</h3>
@@ -256,6 +238,13 @@ export const pageQuery = graphql`
         mainpitch {
           heading
           subheading
+          image {
+            childImageSharp {
+              fluid(maxWidth: 128, quality: 84) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
           title
           description
           link

@@ -17,6 +17,7 @@ mainpitch:
   heading: We help you live a wonderful life with good Feng Shui. We create good Feng Shui with Modern Design.
   subheading: WHAT PEOPLE SAY
   title: "We are Tijana and Andrew, Certified Feng Shui Consultant and Architects"
+  image: /img/logo.png 
   description: The quality of your life is supported by the quality of the energy in your house. When you change your environment, you change your life. We often look for the change outside of us, when really what we need to do first is inner change, inside us and inside our space, to have happiness, luck and prosperity in all areas of life.
   link: /sr/opere/nuovi-media/realtà-aumentata/
 main:

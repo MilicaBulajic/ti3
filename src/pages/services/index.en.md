@@ -2,7 +2,7 @@
 id: '05'
 title: "Feng Shui & Modern design"
 image: /img/services.jpg
-heading: DESIGN YOUR HOME = DESIGN YOUR LIFE
+heading: 
 headingDesc: >
 
 description: "The root of the artwork page"

@@ -6,7 +6,7 @@
 
 // Config vars
 
-$feng: #c18a8b
+$feng: #c7a677
 $feng-invert: #fff
 $family-sans-serif: 'Open Sans', sans-serif
 
@@ -321,7 +321,7 @@ div.packages
   grid-template-rows: 1fr
 
 .content a 
-  color: #c18a8b
+  color: #c7a677
   font-weight: bold
 
 
@@ -345,6 +345,28 @@ div.packages
 @media (min-width: 1200px) 
     .intro-text 
       width: 45%
+
+.video-container 
+    overflow: hidden
+    position: relative
+    width: 100%
+    margin-top: 100px
+    border-radius: 10px
+
+.video-container::after 
+    padding-top: 56.25%
+    display: block
+    content: ''
+
+
+.video-container iframe 
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+
+
 
 @import "~bulma"
 

@@ -12,7 +12,6 @@ import {
 } from "react-icons/fa";
 import Copyright from "../components/Copyright";
 import ScrollToTop from "../components/ScrollToTop";
-import logo from "../img/logo.svg";
 
 const Footer = class extends React.Component {
   render() {

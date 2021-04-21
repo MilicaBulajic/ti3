@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logo from '../img/logo.png'
+import logo from '../../static/img/logo.png'
 import SelectLanguage from './SelectLanguage';
 import { FormattedMessage } from 'react-intl';
 import menuTree from '../data/menuTree'

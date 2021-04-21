@@ -1,13 +1,13 @@
-import React from "react"
-import * as PropTypes from "prop-types"
-import TagList from '../components/TagList'
-import { graphql } from 'gatsby'
-import Layout from "../components/Layout"
-import SEO from '../components/SEO/SEO'
-import Content, { HTMLContent } from "../components/Content"
-import Slider from '../components/Slider'
-import Features from '../components/Features'
-import Testimonials from '../components/Testimonials'
+import React from "react";
+import * as PropTypes from "prop-types";
+import TagList from "../components/TagList";
+import { graphql } from "gatsby";
+import Layout from "../components/Layout";
+import SEO from "../components/SEO/SEO";
+import Content, { HTMLContent } from "../components/Content";
+import Slider from "../components/Slider";
+import Features from "../components/Features";
+import Testimonials from "../components/Testimonials";
 
 const ArtworkTemplate = ({
   title,
@@ -21,42 +21,40 @@ const ArtworkTemplate = ({
   testimonials,
   tags,
   langKey,
-  image
+  image,
 }) => {
-  const PageContent = contentComponent || Content
+  const PageContent = contentComponent || Content;
   return (
-      <div>
+    <div>
       <div
         className="full-width-image margin-top-0"
         style={{
           backgroundImage: `url(${
             !!image.childImageSharp ? image.childImageSharp.fluid.src : image
           })`,
-          backgroundPosition: `top left`,
+          backgroundPosition: `top`,
           height: `550px`,
         }}
       >
-                    <h1
-                  className="has-text-weight-bold is-size-1"
-                  style={{
-                    fontFamily: 'Caveat,cursive',
-                    color: '#4a4a4a',
-                    padding: '1rem',
-                  }}
-                >
-                  {heading}
-                </h1>
+        <h1
+          className="has-text-weight-bold is-size-1"
+          style={{
+            fontFamily: "Caveat,cursive",
+            color: "#4a4a4a",
+            padding: "1rem",
+          }}
+        >
+          {heading}
+        </h1>
+      </div>
+      <section className="section">
+        <PageContent className="container content" content={content} />
+      </section>
+
+      <Features gridItems={intro.blurbs} />
     </div>
-    <section className="section">
-          <PageContent className="container content" content={content} />
-        </section>
-          
-             <Features gridItems={intro.blurbs} />
-             <Testimonials array={array} display={display} testimonials={testimonials} />
-          </div>
-   
-    )
-}
+  );
+};
 
 ArtworkTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -69,33 +67,34 @@ ArtworkTemplate.propTypes = {
   }),
   array: PropTypes.array,
   tags: PropTypes.array,
-  langKey: PropTypes.string
-}
+  langKey: PropTypes.string,
+};
 
 class ArtworksPage extends React.Component {
-
   render() {
     var dataMarkdown = [];
     if (this.props.data !== null) {
-      dataMarkdown = this.props.data.markdownRemark
+      dataMarkdown = this.props.data.markdownRemark;
     }
-  const data = this.props.data;
-  const { frontmatter } = data.markdownRemark;
-  const { display } = frontmatter.slider;
-  const { array } = frontmatter.slider;
-  const description = frontmatter.headingDesc;
-  const jsonData = data.allArticlesJson.edges[0].node.articles;
-  const image = frontmatter.image.childImageSharp.fluid.src;
-  const langKey = frontmatter.lang;
-  const tags = frontmatter.tags;
+    const data = this.props.data;
+    const { frontmatter } = data.markdownRemark;
+    const { display } = frontmatter.slider;
+    const { array } = frontmatter.slider;
+    const description = frontmatter.headingDesc;
+    const jsonData = data.allArticlesJson.edges[0].node.articles;
+    const image = frontmatter.image.childImageSharp.fluid.src;
+    const langKey = frontmatter.lang;
+    const tags = frontmatter.tags;
     return (
-      <Layout className="container" data={data} jsonData={jsonData} location={this.props.location}>
-        <SEO
-          frontmatter={frontmatter}
-          postImage={image}
-        />
+      <Layout
+        className="container"
+        data={data}
+        jsonData={jsonData}
+        location={this.props.location}
+      >
+        <SEO frontmatter={frontmatter} postImage={image} />
         <div>
-            <ArtworkTemplate
+          <ArtworkTemplate
             contentComponent={HTMLContent}
             image={dataMarkdown.frontmatter.image}
             heading={frontmatter.heading}
@@ -108,10 +107,10 @@ class ArtworksPage extends React.Component {
             testimonials={frontmatter.testimonials}
             tags={tags}
             langKey={langKey}
-            />
+          />
         </div>
       </Layout>
-    )
+    );
   }
 }
 
@@ -121,78 +120,78 @@ ArtworksPage.propTypes = {
       frontmatter: PropTypes.object,
     }),
   }),
-}
+};
 
-export default ArtworksPage
+export default ArtworksPage;
 
 export const pageQuery = graphql`
-query ArtworksQuery($id: String!) {
-  site {
-    siteMetadata {
-      languages {
-        defaultLangKey
-        langs
+  query ArtworksQuery($id: String!) {
+    site {
+      siteMetadata {
+        languages {
+          defaultLangKey
+          langs
+        }
       }
     }
-  }
-  allArticlesJson(filter:{title:{eq:"home"}}){
- edges{
-   node{
-     articles {
-       en
-       sr
-     }
-   }
- }
-}
-   markdownRemark(id: { eq: $id }) {
-     html
-     frontmatter {
-       id
-       title
-       description
-       tags
-       lang
-       image {
-         childImageSharp {
-           fluid(maxWidth: 2048, quality: 100) {
-             ...GatsbyImageSharpFluid
-             src
-           }
-         }
-       }
-       heading
-       headingDesc
-       description
-       testimonials{
-         author
-         quote
-       }
-       intro {
-         blurbs {
-           image {
-             childImageSharp {
-               fluid(maxWidth: 240, quality: 64) {
-                 ...GatsbyImageSharpFluid
-               }
-             }
-           }
-          heading
-          link
-          text
-         }
+    allArticlesJson(filter: { title: { eq: "home" } }) {
+      edges {
+        node {
+          articles {
+            en
+            sr
+          }
+        }
       }
-      slider{
-        display
-        array{
-          original
-          thumbnail
-          originalAlt
-          originalTitle
-          description
+    }
+    markdownRemark(id: { eq: $id }) {
+      html
+      frontmatter {
+        id
+        title
+        description
+        tags
+        lang
+        image {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
+              src
+            }
+          }
+        }
+        heading
+        headingDesc
+        description
+        testimonials {
+          author
+          quote
+        }
+        intro {
+          blurbs {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 240, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            heading
+            link
+            text
+          }
+        }
+        slider {
+          display
+          array {
+            original
+            thumbnail
+            originalAlt
+            originalTitle
+            description
+          }
         }
       }
     }
   }
-}
-`
+`;

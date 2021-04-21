@@ -1,61 +1,95 @@
-import React from "react"
-import * as PropTypes from "prop-types"
-import TagList from '../components/TagList'
-import { graphql } from 'gatsby'
-import Layout from "../components/Layout"
-import SEO from '../components/SEO/SEO'
-import Slider from '../components/Slider'
-import IconMenu from '../components/IconMenu'
-import Content, { HTMLContent } from "../components/Content"
-import { withPrefix } from 'gatsby'
+import React from "react";
+import * as PropTypes from "prop-types";
+import TagList from "../components/TagList";
+import { graphql } from "gatsby";
+import Layout from "../components/Layout";
+import SEO from "../components/SEO/SEO";
+import Slider from "../components/Slider";
+import IconMenu from "../components/IconMenu";
+import Content, { HTMLContent } from "../components/Content";
+import { withPrefix } from "gatsby";
+import Video from "../components/Video";
 
-const AboutPageTemplate = ({ title, content, contentComponent, image, langKey, array, display, firstLink, secondLink, thirdLink, fourthLink }) => {
-  const PageContent = contentComponent || Content
+const AboutPageTemplate = ({
+  title,
+  content,
+  contentComponent,
+  image,
+  videoSourceURL,
+  videoTitle,
+  langKey,
+  array,
+  display,
+  firstLink,
+  secondLink,
+  thirdLink,
+  fourthLink,
+}) => {
+  const PageContent = contentComponent || Content;
   return (
-
-      <div>
-                 <div
+    <div>
+      <div
         className="full-width-image margin-top-0"
         style={{
           backgroundImage: `url(${
             !!image.childImageSharp ? image.childImageSharp.fluid.src : image
           })`,
-          backgroundPosition: `top center`,
+          backgroundPosition: `center`,
           height: `550px`,
         }}
       >
-                    <h1
-                  className="has-text-weight-bold is-size-1"
-                  style={{
-                    fontFamily: 'Caveat,cursive',
-                    color: '#4a4a4a',
-                    padding: '1rem',
-                  }}
-                >
-                  {title}
-                </h1>
+        <h1
+          className="has-text-weight-bold is-size-1"
+          style={{
+            fontFamily: "Caveat,cursive",
+            color: "#4a4a4a",
+            padding: "1rem",
+          }}
+        >
+          {title}
+        </h1>
+      </div>
+
+      <section className="about">
+        <div className="column is-10 is-offset-1">
+          <div className="tile is-ancestor">
+            <div className="tile is-vertical">
+              <div className="tile">
+                <div className="tile is-parent is-vertical">
+                  <article className="tile is-child">
+                    <PageContent className="content" content={content} />
+                  </article>
                 </div>
-                <section className="section">
-              <PageContent className="container content" content={content} />
-            </section>
-          </div>   
-)
-}
+                <div className="tile is-parent">
+                  <article className="tile is-child">
+                    <Video
+                      videoSrcURL="https://www.youtube.com/embed/FFM_Z0cctgk"
+                      videoTitle="tst"
+                    />
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
 
 AboutPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
   tags: PropTypes.array,
-  langKey: PropTypes.string
-}
+  langKey: PropTypes.string,
+};
 
 class AboutPage extends React.Component {
-
   render() {
     var dataMarkdown = [];
     if (this.props.data !== null) {
-      dataMarkdown = this.props.data.markdownRemark
+      dataMarkdown = this.props.data.markdownRemark;
     }
     const jsonData = this.props.data.allArticlesJson.edges[0].node.articles;
     const { frontmatter } = dataMarkdown;
@@ -63,31 +97,33 @@ class AboutPage extends React.Component {
     const langKey = frontmatter.lang;
     const tags = frontmatter.tags;
     return (
-      <Layout className="container" data={this.props.data} jsonData={jsonData} location={this.props.location}>
-        <SEO
-          frontmatter={frontmatter}
-          postImage={image}
-        />
+      <Layout
+        className="container"
+        data={this.props.data}
+        jsonData={jsonData}
+        location={this.props.location}
+      >
+        <SEO frontmatter={frontmatter} postImage={image} />
         <div>
-            <AboutPageTemplate
+          <AboutPageTemplate
             image={dataMarkdown.frontmatter.image}
             contentComponent={HTMLContent}
             title={dataMarkdown.frontmatter.title}
             content={dataMarkdown.html}
             tags={tags}
             langKey={langKey}
-             />
+          />
         </div>
       </Layout>
-    )
+    );
   }
 }
 
 AboutPage.propTypes = {
   data: PropTypes.object.isRequired,
-}
+};
 
-export default AboutPage
+export default AboutPage;
 
 export const pageQuery = graphql`
   query AboutPageQuery($id: String!) {
@@ -99,24 +135,24 @@ export const pageQuery = graphql`
         }
       }
     }
-      allFile(filter: { extension: { eq: "pdf" } }) {
-        edges {
-          node {
-            publicURL
+    allFile(filter: { extension: { eq: "pdf" } }) {
+      edges {
+        node {
+          publicURL
+        }
+      }
+    }
+    allArticlesJson(filter: { title: { eq: "home" } }) {
+      edges {
+        node {
+          articles {
+            en
+            sr
           }
         }
       }
-    allArticlesJson(filter:{title:{eq:"home"}}){
-   edges{
-     node{
-       articles {
-         en
-         sr
-       }
-     }
-   }
- }
-    markdownRemark(id: {eq: $id}) {
+    }
+    markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
         id
@@ -138,4 +174,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
