@@ -118,7 +118,7 @@ const HomePageTemplate = ({
       <section className="wps">
         <div className="column is-10 is-offset-1">
           <h3>{mainpitch.subheading}</h3>
-          <Testimonials testimonials={testimonials} image={image} />
+          <Testimonials testimonials={testimonials} />
         </div>
       </section>
       <section>
@@ -289,11 +289,11 @@ export const pageQuery = graphql`
         testimonials {
           author
           quote
+          alt
           image {
               childImageSharp {
                 fluid(maxWidth: 128, quality: 84) {
-                  ...GatsbyImageSharpFluid
-                
+                  ...GatsbyImageSharpFluid    
               }
             }
           }

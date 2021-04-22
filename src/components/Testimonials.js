@@ -4,18 +4,21 @@ import { v4 } from "uuid";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import Img from "gatsby-image";
 
-const Testimonials = ({ testimonials, image }) => (
+const Testimonials = ({ testimonials }) => (
   <div className="columns is-multiline">
     {testimonials.map((testimonial) => (
       <article key={v4()} className="is-parent column is-4">
         <div
-          style={{ paddingTop: "10%", paddingBottom: "10%" }}
+          style={{ paddingTop: "10%", paddingBottom: "10%", width: "auto", innerHeight: "auto" }}
           className="message-body testimonials"
         >
-          <img
-            style={{ maxWidth: "20%" }}
-            src={image}
+          <figure className="image is-128x128">
+          <PreviewCompatibleImage
+            
+            imageInfo={testimonial.image}
+            alt={testimonial.alt}
           />
+          </figure>
           {testimonial.quote}
           <br />
           <cite> – {testimonial.author}</cite>
@@ -28,9 +31,11 @@ const Testimonials = ({ testimonials, image }) => (
 Testimonials.propTypes = {
   testimonials: PropTypes.arrayOf(
     PropTypes.shape({
-      image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]).isRequired,
+      image: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
+        .isRequired,
       quote: PropTypes.string,
       author: PropTypes.string,
+      alt: PropTypes.string,
     })
   ),
 };

@@ -27,24 +27,32 @@ main:
   image1:
     alt: Fengshui specialist
     image: /img/image1.jpg
-
 testimonials:
   - author: Milica Bulajic
     quote: >-
       I’m glad I decided to work with you. It’s really great how easy youre and manage. I never have any problem at all.
+    image: /img/test1.jpg
+    alt: vddfgdf
+  - author: Milica Bulajic
+    quote: >-
+      I’m glad I decided to work with you. It’s really great how easy youre and manage. I never have any problem at all.
     image: /img/128x128.png
+    alt: vddfgdf
   - author: Danica R.
     quote: >-
       Lorem ipsum, or lipsum as it is sometimes known, web designs.
     image: /img/128x128.png
+    alt: vddfgdf
   - author: Suza
     quote: >-
       Working with Tijana and Andrew, is working with glamour, responsibility, and commitment.
     image: /img/128x128.png
+    alt: vddfgdf
   - author: Suza
     quote: >-
       Lorem ipsum, or lipsum as it is sometimes known, web designs.
     image: /img/128x128.png
+    alt: vddfgdf
 imageCardSL:
   alt: "image"
   image: /img/128x128.png
