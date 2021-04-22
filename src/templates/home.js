@@ -81,8 +81,8 @@ const HomePageTemplate = ({
             <h4>{mainpitch.heading}</h4>
             <p>{mainpitch.description}</p>
           </div>
-          <div className="column is-2">
-            <img src={image} alt="fengshui" />
+          <div className="column is-2 second">
+            <SubscribeForm />
           </div>
         </div>
       </section>
