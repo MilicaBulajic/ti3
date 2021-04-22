@@ -12,7 +12,6 @@ heading: "Dear friends welcome to"
 slider:
   display: "slide"
   array:
-
 mainpitch:
   heading: We help you live a wonderful life with good Feng Shui. We create good Feng Shui with Modern Design.
   subheading: WHAT PEOPLE SAY
@@ -67,6 +66,13 @@ intro:
       heading: Painting
       link: /en/services/
       text: >
+images:
+  - image: /img/1.jpg
+    alt: "Some Persimmon on the tree"
+  - image: /img/2.jpg
+    alt: "A Persimmon tree"
+  - image: /img/3.jpg
+    alt: "A Persimmon treed"
 ---
 
 Feng Shui is an ancient Chinese art which we use in our modern time and modern home design to help us create the life we desire. <b>When we heal the energy in us and around us, we transform our life.</b> We enhance the good energy of the space which will positively influence your life and bring good fortune. We also heal/balance the negative energy of the space which blocks you and create obstacles in your life.

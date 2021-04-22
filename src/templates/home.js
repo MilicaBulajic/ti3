@@ -10,14 +10,14 @@ import select from "../components/utils";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import SubscribeForm from "../components/SubscribeForm";
 import Instagram from "../components/Instagram.js";
-import FollowUs from '../components/FollowUs'
+import FollowUs from "../components/FollowUs";
 import { navigate } from "gatsby";
-
-
+import Lightbox from "../components/Lightbox";
 
 const HomePageTemplate = ({
   imageCardSL,
   image,
+  images,
   heading,
   display,
   array,
@@ -114,7 +114,9 @@ const HomePageTemplate = ({
           </div>
         </div>
       </section>
-
+      <section>
+        <Lightbox images={images} />
+      </section>
       <section className="wps">
         <div className="column is-10 is-offset-1">
           <h3>{mainpitch.subheading}</h3>
@@ -137,6 +139,7 @@ HomePageTemplate.propTypes = {
   blurbs: PropTypes.array,
   langKey: PropTypes.string,
   description: PropTypes.string,
+  images: PropTypes.array,
 };
 
 class HomePage extends React.Component {
@@ -155,6 +158,7 @@ class HomePage extends React.Component {
     const sel = select(langKey);
     const image = frontmatter.image.childImageSharp.fluid.src;
     const tags = frontmatter.tags;
+    const images = frontmatter.images;
 
     return (
       <Layout
@@ -184,6 +188,7 @@ class HomePage extends React.Component {
             tags={tags}
             langKey={langKey}
             description={frontmatter.description}
+            images={images}
           />
         </div>
       </Layout>
@@ -286,14 +291,22 @@ export const pageQuery = graphql`
             }
           }
         }
+        images {
+          image {
+            childImageSharp {
+              gatsbyImageData(quality: 85, layout: FULL_WIDTH)
+            }
+          }
+          alt
+        }
         testimonials {
           author
           quote
           alt
           image {
-              childImageSharp {
-                fluid(maxWidth: 128, quality: 84) {
-                  ...GatsbyImageSharpFluid    
+            childImageSharp {
+              fluid(maxWidth: 128, quality: 84) {
+                ...GatsbyImageSharpFluid
               }
             }
           }
