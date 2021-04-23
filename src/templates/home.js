@@ -82,7 +82,6 @@ const HomePageTemplate = ({
             <p>{mainpitch.description}</p>
           </div>
           <div className="column is-2 second">
-            <SubscribeForm />
           </div>
         </div>
       </section>
@@ -132,7 +131,6 @@ const HomePageTemplate = ({
       </section>
       <section>
         <FollowUs />
-        <Instagram />
       </section>
     </div>
   );

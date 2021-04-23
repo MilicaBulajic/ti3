@@ -50,7 +50,6 @@ export default class BlogIndexPage extends React.Component {
         </section>
         <section className="content">
         <FollowUs />
-        <Instagram />  
       </section>          
       </Layout>
     )
