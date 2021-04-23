@@ -4,13 +4,13 @@ title: ""
 description: "Something about me"
 templateKey: about
 lang: en
-image: /img/about.jpg
+image: ../img/about.jpg
 date: "05-03-2019"
 path: /en/about/
 slug: /en/about/
 attachments:
-  - "./img/certificate1.pdf"
-  - "./img/certificate2.pdf"
+  - "../img/certificate1.pdf"
+  - "../img/certificate2.pdf"
 videoSourceURL: https://www.youtube.com/watch?v=BN64vf0Em_A
 videoTitle: "Gatsby is Never Gonna Give You Up"
 ---

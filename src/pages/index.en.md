@@ -7,7 +7,7 @@ tags:
   - web
 lang: en
 date: "05-03-2019"
-image: /img/Persimmon.jpg
+image: ../img/Persimmon.jpg
 heading: "Dear friends welcome to"
 slider:
   display: "slide"
@@ -16,7 +16,7 @@ mainpitch:
   heading: We help you live a wonderful life with good Feng Shui. We create good Feng Shui with Modern Design.
   subheading: WHAT PEOPLE SAY
   title: "We are Tijana and Andrew, Certified Feng Shui Consultant and Architects"
-  image: /img/logo.png 
+  image: 
   description: The quality of your life is supported by the quality of the energy in your house. When you change your environment, you change your life. We often look for the change outside of us, when really what we need to do first is inner change, inside us and inside our space, to have happiness, luck and prosperity in all areas of life.
   link: /sr/opere/nuovi-media/realtà-aumentata/
 main:
@@ -25,36 +25,36 @@ main:
 
   image1:
     alt: Fengshui specialist
-    image: /img/image1.jpg
+    image: ../img/image1.jpg
 testimonials:
   - author: Milica Bulajic
     quote: >-
       I’m glad I decided to work with you. It’s really great how easy youre and manage. I never have any problem at all.
-    image: /img/test1.jpg
+    image: ../img/test1.jpg
     alt: vddfgdf
   - author: Milica Bulajic
     quote: >-
       I’m glad I decided to work with you. It’s really great how easy youre and manage. I never have any problem at all.
-    image: /img/128x128.png
+    image: ../img/128x128.png
     alt: vddfgdf
   - author: Danica R.
     quote: >-
       Lorem ipsum, or lipsum as it is sometimes known, web designs.
-    image: /img/128x128.png
+    image: ../img/128x128.png
     alt: vddfgdf
   - author: Suza
     quote: >-
       Working with Tijana and Andrew, is working with glamour, responsibility, and commitment.
-    image: /img/128x128.png
+    image: ../img/128x128.png
     alt: vddfgdf
   - author: Suza
     quote: >-
       Lorem ipsum, or lipsum as it is sometimes known, web designs.
-    image: /img/128x128.png
+    image: ../img/128x128.png
     alt: vddfgdf
 imageCardSL:
   alt: "image"
-  image: /img/128x128.png
+  image: ../img/128x128.png
   name: John Kaki
   description: I am a visual artist, follow me in this adventure...!
   website: www.kaki.com
@@ -62,16 +62,16 @@ path: /en/
 slug: /en/
 intro:
   blurbs:
-    - image: /img/Persimmon.jpg
+    - image: ../img/Persimmon.jpg
       heading: Painting
       link: /en/services/
       text: >
 images:
-  - image: /img/one.jpg
+  - image: ../img/one.jpg
     alt: "Some Persimmon on the tree"
-  - image: /img/two.jpg
+  - image: ../img/two.jpg
     alt: "A Persimmon tree"
-  - image: /img/three.jpg
+  - image: ../img/three.jpg
     alt: "A Persimmon treed"
 ---
 

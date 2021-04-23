@@ -1,7 +1,7 @@
 ---
 id: '05'
 title: "Feng Shui & Modern design"
-image: /img/services.jpg
+image: ../img/services.jpg
 heading: 
 headingDesc: >
 
@@ -15,32 +15,32 @@ path: /en/services/
 slug: /en/services/
 intro:
   blurbs:
-    - image: /img/services/1.jpg
+    - image: ../img/services/1.jpg
       heading: TRANSFORM AND CREATE THE LIFE YOU DESIRE
       link: /en/services/painting/
       text: >
         in this section we map out the 9 zones of your house each one of which represents a particular area of your life (health, wealth, relationships, etc.), to intentionally align the energy of the space with the life you want to live.
-    - image: /img/services/2.jpg
+    - image: ../img/services/2.jpg
       heading: TRANSFORM AND CREATE THE LIFE YOU DESIRE WITH MODERN DESIGN
       link: /en/services/sculpture/
       text: >
         this is an astrological chart which uses time, space and objects to analyse positive and negative areas of the house and to heal/balance the energy. This includes analysing health, wealth, relationships, etc. of inhabitants. Please note that for the full effect of Feng Shui, a yearly update for the remedies needs to be done, since every calendar year the energy of the house changes.
-    - image: /img/services/3.jpg
+    - image: ../img/services/3.jpg
       heading: CREATE THE LIFE YOU DESIRE WITH YOUR HOUSE
       link: /en/services/performance/
       text: >
         in this section we map out the 9 zones of your house each one of which represents a particular area of your life (health, wealth, relationships, etc.), to intentionally align the energy of the space with the life you want to live.
-    - image: /img/services/4.jpg
+    - image: ../img/services/4.jpg
       heading: HEAL/IMPORVE YOUR HOME = HEAL/IMPROVE YOUR LIFE
       link: /en/services/interactivity/
       text: >
         this is the report determining remedies derived from what is calculated in the Flying stars worksheet, which suggest the elements to use and ways how to balance the energy in every area of the house.
-    - image: /img/services/5.jpg
+    - image: ../img/services/5.jpg
       heading: HOW YOUR ENVIRONMENT SUPPORTS YOU TO HAVE SUCCESS
       link: /en/services/interactivity/
       text: >
         this is based on your date of birth and gender and it is used to show your compatibility with building space, e.g. your most supportive directions for sleeping, working, etc; for all residents of your home (to a max. of 6 people)
-    - image: /img/services/6.jpg
+    - image: ../img/services/6.jpg
       heading: MANIFEST YOUR DESIRE WITH FENG SHUI
       link: /en/services/interactivity/
       text: >
