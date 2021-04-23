@@ -75,7 +75,7 @@ const HomePageTemplate = ({
       </div>
 
       <section className="section full-width-text">
-        <div className="columns">
+        <div className="columns mobile">
           <div className="column is-8 is-offset-1">
             <h2 className="has-text-weight-semibold">{mainpitch.title}</h2>
             <h4>{mainpitch.heading}</h4>
@@ -102,6 +102,13 @@ const HomePageTemplate = ({
                   <article className="tile is-child">
                     <h3>{main.heading}</h3>
                     <PageContent className="content" content={content} />
+                    <button
+                      onClick={() => {
+                        navigate("services");
+                      }}
+                    >
+                      CHOSE YOUR PACKAGE
+                    </button>
                   </article>
                 </div>
                 <div className="tile is-parent">
@@ -124,6 +131,7 @@ const HomePageTemplate = ({
         </div>
       </section>
       <section>
+        <FollowUs />
         <Instagram />
       </section>
     </div>

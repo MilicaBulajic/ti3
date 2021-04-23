@@ -47,11 +47,14 @@ const ArtworkTemplate = ({
           {heading}
         </h1>
       </div>
-      <section className="section">
+      <section className="section services">
+        <h3>DESIGN YOUR HOME = DESIGN YOUR LIFE </h3>
         <PageContent className="container content" content={content} />
       </section>
-
+      <div className="column is-10 is-offset-1">
       <Features gridItems={intro.blurbs} />
+      <p>{description}</p>
+      </div>
     </div>
   );
 };

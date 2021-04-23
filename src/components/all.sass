@@ -47,13 +47,13 @@ h3:after
   box-shadow:none !important
 
 .navbar .navbar-item:hover
- color: #c18a8b
+ color: #c7a677
 
  .navbar .navbar-item:active
- color: #c18a8b
+ color: #c7a677
 
 .navbar .navbar-item:focus
- color: #c18a8b
+ color: #c7a677
 
 
 
@@ -73,7 +73,7 @@ h3:after
       font-size: 14px
       font-weight: 400
       height: 2em
-      color: #c18a8b
+      color: #c7a677
 
 .is-vertical-center
   display: flex
@@ -405,17 +405,120 @@ div.packages
 .full-width-text button:hover
   background: #fff
   color: #c7a677
+  
+.about button 
+  height: 40px
+  padding: 0 15px
+  font-size: 15px
+  text-decoration: none
+  margin-top: 16px
+  margin-bottom: 16px
+  margin-left: 8%
+  border-radius: 4px
+  border: 1px solid #c7a677
+  font-weight: 700
+  color: #fff
+  cursor: pointer
+  -webkit-transition: .3s ease
+  -moz-transition: .3s ease
+  -o-transition: .3s ease
+  transition: .3s ease
+  letter-spacing: 1px
+  background: #c7a677
+
+.followus h3
+  font-size: 22px
+  text-transform: uppercase
+  color: #555555
+
+//srvice
+
+.services h3 
+  font-size: 22px
+  text-transform: uppercase
+  padding-bottom: 12px
+  font-weight: 600
+  text-align: center
+
+.services b 
+  color: #c7a677
+
+.services .bg-image
+  opacity: 0.25
+
+.section.cards
+  height: auto
+  width: auto
+  text-align: center
+
+.services h4.title
+  font-size: 22px
+  padding: 10px
+  position: absolute
+  z-index: 9999 
+  width: 32%
+  display: flex
+  padding-top: 100px
+  padding-left: 15px
+  text-align: center
+  color: #555555
+
+.services p.features
+  position: absolute
+  z-index: 9999
+  width: 30%
+  display: flex
+  padding-top: 20%
+  padding-left: 40px
+  text-align: center
+  color: #000
+  font-size: 20px
 
 @media only screen and (max-width: 600px) 
+
+  .full-width-image
+    background-image: url("/img/mobilehome.jpg")!important
+
   .cover-text 
     text-align: center
-    width: 59%
+    width: 65%
+    left: 15%
+    margin-top: 500px
     background-color: #fff
+
+  .cover-text button  
+    margin-left: 0
+
+  .columns.mobile 
+    margin-top: 100px
+    
   .full-width-image img
     background-position: bottom 50px right 100px
 
+  .section .full-width-text .columns
+    margin-top: 100px 
+
   .full-width-text .second
     margin-top: 0 
+
+  .services h4.title
+    font-size: 20px
+    position: absolute
+    z-index: 9999
+    padding-top: 5px
+    text-align: center
+    width: 70%
+    margin: 0
+    color: #555555
+
+  .services p.features
+    position: absolute
+    z-index: 9999
+    width: 70%
+    padding-top: 25%
+    text-align: center
+    font-size: 15px  
+    right: 21%
 
 
 @import "~bulma"

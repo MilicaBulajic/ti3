@@ -30,3 +30,5 @@ We started using Feng Shui in life of people close to us, and we were amazed at 
 We decided to use our knowledge in architecture and design, to help people live wonderful lives and make their homes a sacred space where they love and want to be.
 
 We decided with Feng Shui to help people live in joy, happiness, health, love, abundance, in the fullness of life.We are happy to be here for you!
+
+We are happy to be here for you!    

@@ -67,18 +67,17 @@ intro:
       link: /en/services/
       text: >
 images:
-  - image: /img/1.jpg
+  - image: /img/one.jpg
     alt: "Some Persimmon on the tree"
-  - image: /img/2.jpg
+  - image: /img/two.jpg
     alt: "A Persimmon tree"
-  - image: /img/3.jpg
+  - image: /img/three.jpg
     alt: "A Persimmon treed"
 ---
 
 Feng Shui is an ancient Chinese art which we use in our modern time and modern home design to help us create the life we desire. <b>When we heal the energy in us and around us, we transform our life.</b> We enhance the good energy of the space which will positively influence your life and bring good fortune. We also heal/balance the negative energy of the space which blocks you and create obstacles in your life.
 
 <b>The balance of the energy in your house will eventually reflect in your life.</b>
-
 If we can first heal the energy in the house, why wait for it to manifest in your life or your body?
 
 Feng Shui helps you easily remove unwanted things from your life. It supports you to live in health, happiness, joy, abundance. It helps you Manifest your dreams, remove obstacles and open the doors to new possibilities.
@@ -86,3 +85,5 @@ Feng Shui helps you easily remove unwanted things from your life. It supports yo
 <b>Feng shui brings you great happiness and success in everything you do!</b>
 
 Love yourself enough to live the life of your dreams. You deserve it! With the good energy flow of your home and desire in your heart, you can achieve anything. We are happy to help you!
+
+Ready for the CHANGE?  

@@ -1,35 +1,38 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import { FormattedMessage } from 'react-intl';
-import { FaSearch } from 'react-icons/fa';
+import React from "react";
+import PropTypes from "prop-types";
+import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+
 
 const FeatureGrid = ({ gridItems }) => (
-    <div className="columns is-multiline">
-      {gridItems.map(item => (
-        <div key={item.text} className="column is-6">
-          <section className="section">
-            <div className="box has-text-centered">
-              <h3 className="title">{item.heading}</h3>
-                <div className="content">
-                    <div
-                      style={{
-                        width: '240px',
-                        display: 'inline-block',
-                      }}
-                    >
-      
-                </div>
-                  <div className="content">
-                    <p className="features">{item.text}</p>
-                  </div>
+  <div className="columns is-multiline">
+    {gridItems.map((item) => (
+      <div key={item.text} className="column is-6">
+        <section className="section cards">
+          <div className="box has-text-centered">
+            <div className="services">
+            <h4 className="title">{item.heading}</h4>
+            <p className="features">{item.text}</p>
+            <div className="bg-image">
+   
+                <PreviewCompatibleImage
+                  style={{
+                    backgroundImage: `url(${
+                      !!item.childImageSharp
+                        ? item.childImageSharp.fluid.src
+                        : item
+                    })`,
+                  }}
+                  imageInfo={item}
+                />
+                          
               </div>
             </div>
-          </section>
-        </div>
-      ))}
-    </div>
-)
+          </div>
+        </section>
+      </div>
+    ))}
+  </div>
+);
 
 FeatureGrid.propTypes = {
   gridItems: PropTypes.arrayOf(
@@ -38,6 +41,6 @@ FeatureGrid.propTypes = {
       text: PropTypes.string,
     })
   ),
-}
+};
 
-export default FeatureGrid
+export default FeatureGrid;
