@@ -36,7 +36,12 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-transformer-javascript-frontmatter",
     `gatsby-plugin-react-helmet`,
-    "gatsby-plugin-sass",
+    {
+      resolve: 'gatsby-plugin-sass',
+      options: {
+        indentedSyntax: true
+      }
+    },
     {
       resolve: "gatsby-plugin-i18n",
       options: {
