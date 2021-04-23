@@ -6,7 +6,7 @@ templateKey: contacts
 tags:
   - web
 lang: en
-image: /img/PersimmonHD.jpg
+image: ../img/PersimmonHD.jpg
 date: "08-11-2020"
 address: "Piazza Unità d'Italia, 34121 Trieste TS"
 phone: '+3900123456789'
