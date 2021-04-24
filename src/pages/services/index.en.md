@@ -4,7 +4,6 @@ title: "Feng Shui & Modern design"
 image: /img/services.jpg
 heading: 
 headingDesc: >
-
 description: "We like to remind you that every calendar year the energy in the house changes. It is vital that every year we do energy update, to protect us from negative influences and make positive energy support in our life. That is the importance of Feng Shui and how it helps you live a happy and fulfilled life. We are happy to help you in this!"
 templateKey: services
 tags:
