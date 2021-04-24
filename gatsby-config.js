@@ -32,34 +32,6 @@ module.exports = {
     languages,
   },
   plugins: [
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
-    "gatsby-transformer-javascript-frontmatter",
-    `gatsby-plugin-react-helmet`,
-    {
-      resolve: 'gatsby-plugin-sass',
-      options: {
-        indentedSyntax: true
-      }
-    },
-    {
-      resolve: "gatsby-plugin-i18n",
-      options: {
-        langKeyForNull: "any",
-        langKeyDefault: languages.defaultLangKey,
-        useLangKeyLayout: false,
-      },
-    },
-    {
-      resolve: "gatsby-plugin-i18n-tags",
-      options: {
-        // Default options
-        tagPage: "src/templates/tags.js",
-        tagsUrl: "/tags/",
-        langKeyForNull: "any",
-      },
-    },
-    `gatsby-transformer-json`,
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
@@ -88,6 +60,8 @@ module.exports = {
         name: 'images',
       },
     },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: "gatsby-transformer-remark",
       options: {
@@ -117,6 +91,33 @@ module.exports = {
       },
     },
     `gatsby-plugin-netlify-cms`,
+    "gatsby-transformer-javascript-frontmatter",
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: 'gatsby-plugin-sass',
+      options: {
+        indentedSyntax: true
+      }
+    },
+    {
+      resolve: "gatsby-plugin-i18n",
+      options: {
+        langKeyForNull: "any",
+        langKeyDefault: languages.defaultLangKey,
+        useLangKeyLayout: false,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-i18n-tags",
+      options: {
+        // Default options
+        tagPage: "src/templates/tags.js",
+        tagsUrl: "/tags/",
+        langKeyForNull: "any",
+      },
+    },
+    `gatsby-transformer-json`,
+
     `gatsby-plugin-netlify`,
     {
       resolve: "gatsby-plugin-purgecss", // purges all unused/unreferenced css rules
