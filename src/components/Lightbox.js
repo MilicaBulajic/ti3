@@ -12,7 +12,7 @@ class Lightbox extends Component {
           {images.map((img, i) => (
             <div className="column is-one-third">
               <GatsbyImage
-                image={img.image.childImageSharp.gatsbyImageData}
+                image={img.image.childImageSharp.fluid}
                 alt={img.alt}
                 style={imageStyle}
               />

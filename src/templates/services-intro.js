@@ -58,7 +58,7 @@ render() {
   const data = this.props.data;
   const { frontmatter } = data.markdownRemark;
   const jsonData = data.allArticlesJson.edges[0].node.articles;
-  const image = frontmatter.image.childImageSharp.gatsbyImageData.src;
+  const image = frontmatter.image.childImageSharp.fluid.src;
   const langKey = frontmatter.lang;
   const tags = frontmatter.tags;
     return (
@@ -107,7 +107,7 @@ export const pageQuery = graphql`query ArtworksIntroQuery($id: String!) {
       node {
         articles {
           en
-          it
+          sr
         }
       }
     }
@@ -121,7 +121,9 @@ export const pageQuery = graphql`query ArtworksIntroQuery($id: String!) {
       lang
       image {
         childImageSharp {
-          gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+          fluid(maxWidth: 2048, quality: 100) {
+            ...GatsbyImageSharpFluid
+          }
         }
       }
       heading
@@ -130,7 +132,9 @@ export const pageQuery = graphql`query ArtworksIntroQuery($id: String!) {
         blurbs {
           image {
             childImageSharp {
-              gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
+              fluid(maxWidth: 500, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
           heading
