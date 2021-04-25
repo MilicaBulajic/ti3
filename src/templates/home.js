@@ -8,7 +8,7 @@ import Content, { HTMLContent } from "../components/Content";
 import iconLinks from "../data/artworksMenu";
 import select from "../components/utils";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
-import SubscribeForm from "../components/SubscribeForm";
+
 import FollowUs from "../components/FollowUs";
 import { navigate } from "gatsby";
 import Lightbox from "../components/Lightbox";
@@ -81,7 +81,7 @@ const HomePageTemplate = ({
             <p>{mainpitch.description}</p>
           </div>
           <div className="column is-2 second">
-            <SubscribeForm />
+
           </div>
         </div>
       </section>
